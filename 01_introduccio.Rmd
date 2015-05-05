@@ -1,15 +1,16 @@
 ---
-title: "01 Introducció a R"
+title: "Pràctica 1. Introducció a R"
 output: html_document
 ---
 
-# Introducció a R
+* [El llenguatge R](#llenguatge_R)
+* [Estructures de dades comuns](#estructures)
 
-## El llenguatge R
+# El llenguatge R {#llenguatge_R}
 
-R és un llenguatge de programació orientat principalment a l'anàlisi estadístic. La primera versió d'R va apareixer l'any 1992. R és un llenguatge funcional, aquest fet el fa semblant a altres llenguatges funcionals de programació com [Common Lisp](http://en.wikipedia.org/wiki/Common_Lisp) o [Haskell](http://en.wikipedia.org/wiki/Haskell_(programming_language).
+R és un llenguatge de programació orientat principalment a l'anàlisi estadístic. La primera versió d'R va apareixer l'any 1992. R és un llenguatge funcional, aquest fet el fa semblant a altres llenguatges funcionals de programació com [Common Lisp](http://en.wikipedia.org/wiki/Common_Lisp) o [Haskell](http://en.wikipedia.org/wiki/Haskell_(programming_language)).
 
-Alguns dels punts forts d'R són:
+Alguns dels punts forts:
 
 * És lliure, codi obert, i disponible per les principals plataformes. Si fas un anàlisi, 
   qualsevol persona el pot replicar.
@@ -35,10 +36,10 @@ Alguns dels punts forts d'R són:
   fàcils de compartir en html o pdf mitjançant [informes](http://yihui.name/knitr/), o per exemple crear
   [webs interactives](http://www.rstudio.com/shiny/).
   
-* Disenyat per connectar-se amb facilitat amb altres llenguatges de programació com C, C++, 
-  Fortran i Java.
+* Disenyat per connectar-se amb facilitat amb altres llenguatges de programació com C, C++ i 
+  Fortran.
 
-Algunes de les principals mancances d'R són:
+Algunes de les principals mancances:
 
 * La major part del codi R que trobareu per internet està escrit per resoldre un problema
   concret. Per tant, el codi pot no sé ni elegant, ni ràpid, ni fàcil d'entendre.
@@ -53,7 +54,7 @@ Algunes de les principals mancances d'R són:
   l'hora d'escriure els vostres programes.
   
 
-## Estructures de dades
+# Estructures de dades comuns {#estructures}
 
 Aquesta secció resumeix les estructures de dades més comuns d'R. Si voleu aprofundir en alguna estructura concreta podeu accedir directament a la documentació d'R.
 
@@ -107,3 +108,87 @@ c(1, 2, 3, 4)
 ```
 
 En R, un valor perdut s'especifica amb `NA`, que és un vector logic de llargada 1. `NA` es converteix sempre a la tipologia del vector on apareix. Tot i que en general no serà necessari, si es vol crear un `NA` d'un tipus específic, es pot utilitzar `NA_real_` (a double vector), `NA_integer_` and `NA_character_` enlloc de `NA`.
+
+#### Tipus i tests de vectors
+
+Donat un vector, pot deerminar el seu tipus amb `typeof()` o comprovar si el vector és d'un tipus específic amb la funció "is": `is.character()`, `is.double()`, `is.integer()`, `is.logical()`, o  de forma més general, `is.atomic()`.
+
+```{r}
+int_var <- c(1L, 6L, 10L)
+typeof(int_var)
+is.integer(int_var)
+is.atomic(int_var)
+
+dbl_var <- c(1, 2.5, 4.5)
+typeof(dbl_var)
+is.double(dbl_var)
+is.atomic(dbl_var)
+```
+
+`is.numeric()` és un test general per decidir si un vector és numèric o no (integer o double).
+
+```{r}
+is.numeric(int_var)
+is.numeric(dbl_var)
+```
+
+#### Conversió de tipus
+
+Tots els elements d'un vector atómic han de ser del mateix tipus, així doncs, quan intentem combinar diferent tipus algun dels vector serà convertit al tipus més flexible. El tipus de menys a més flexibles són: logical, integer, double i character.
+
+Per exemple, al combinar un caràcter i un enter dona lloc a un caràcter:
+
+```{r}
+str(c("a", 1))
+```
+
+Quan un vector logica és converteix a enter o doble, `TRUE` es converteix en 1 i `FALSE` en 0. Això és especialment útil juntament amb la funció `sum()` i `mean()`
+
+```{r}
+x <- c(FALSE, FALSE, TRUE)
+as.numeric(x)
+
+# Nombre total TRUEs
+sum(x)
+
+# Proporció de TRUE
+mean(x)
+```
+
+La conversió de tipus normalment succeeix de forma automàtica. La majoria de funcions matemàtiques (`+`, `log`, `abs`, etc.) convertiran a doble o enter, i la majoria d'operacions lógiques (`&`, `|`, `any`, etc) convertiran a logical. Normalment, quan això passi rebràs un missatge d'alerta si en el procés de conversió s'ha pogut perdre algun tipus d'informació. Per evitar confusions podem convertir manualment el tipus del nostre vector mitjançant les funcions `as.character()`, `as.double()`, `as.integer()` o `as.logical()`. 
+
+### Les llistes (list)
+
+Les llistes són diferents dels vectors atómics perquè els seus element poden ser de qualsevol tipus, fins i tot llistes. A diferència dels vectors atòmics que es construeixen amb la funció `c()`, pots construir llistes mitjançant la funció `list()`:
+
+```{r}
+x <- list(1:3, "a", c(TRUE, FALSE, TRUE), c(2.3, 5.9))
+str(x)
+```
+
+Com s'ha comentat, les llistes poden contenir altres llistes. Això les converteix en elements molt més versàtils que els vectors atòmics.
+
+```{r}
+x <- list(list(list(list())))
+str(x)
+```
+
+La funció `c()` si s'aplica a una llista  o més, convertirà tots els elements en una sola llista. Compara el resultat de `list()` i `c()`:
+
+```{r}
+x <- list(list(1, 2), c(3, 4))
+y <- c(list(1, 2), c(3, 4))
+str(x)
+str(y)
+```
+
+El tipus (`typeof()`) d'un llista és `list`. Pots testar si un objecte és una llista amb `is.list()` i convertir un objete a llista amb `as.list()`. Pots convertir una llista en un vector atómic mitjançant la comanda `unlist()`. Si els elements d'una llista són de diferent tipus, `unlist()` utilitzarà les mateixes regles que s'utilitzen amb `c()`, o sigui, es convertiran els elements al tipus més flexible.
+
+Les estructures més avançades d'R es construeixen a partir de llistes. Per exemple, els data.frames (que en parlarem a continuació) i els model lineals (que veurem més endavant) són llistes:
+
+```{r}
+is.list(mtcars)
+
+mod <- lm(mpg ~ wt, data = mtcars)
+is.list(mod)
+```
