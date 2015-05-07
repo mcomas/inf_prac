@@ -1,0 +1,11 @@
+---
+title: "Estadística descriptiva"
+output: html_document
+---
+
+* [Descriptiva de variables numèriques](#num_descriptive)
+* [Descriptiva de variables categòriques](#cat_descriptive)
+
+# Descriptiva de variables numèriques {#num_descriptive}
+# Descriptiva de variables categòriques {#cat_descriptive}
+o

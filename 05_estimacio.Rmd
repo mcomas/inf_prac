@@ -1,0 +1,26 @@
+---
+title: "Models lineals (1): Estimació i intervals"
+output: html_document
+---
+
+# Estimació puntual
+
+```{r}
+n = 10
+x = rnorm(n, mean = 10, sd = 1)
+
+mod = lm(x~1)
+
+# Estimació puntual
+coef(mod)
+
+# Interval de confiança
+confint(mod)
+```
+
+
+
+
+
+
+# Intervals de confiança

@@ -1,0 +1,30 @@
+---
+title: "Model lineals generalitzats"
+output: html_document
+---
+
+
+```{r}
+set.seed(1)
+y = rbinom(100, size = 1, p = 0.05)
+```
+
+Interval amb extrems negatius
+
+```{r}
+m.lm <- lm(y~1)
+confint(m.lm)
+```
+
+Model lineals generalitzats
+
+```{r}
+# Es crea una funció link per realitzar l'anàlisi (link = "logit")
+link = binomial()
+
+m.glm <- glm(y~1, family = link)
+
+link$linkinv( coef(m.glm) )
+link$linkinv( confint(m.glm) )
+```
+

@@ -1,0 +1,7 @@
+---
+title: 'Models lineals (2): Significació estadística'
+output: html_document
+---
+
+* [Reducció a l'absurd](#absurd)
+* [Contrast d'hipòtesi](#hipotesi)

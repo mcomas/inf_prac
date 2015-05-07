@@ -1,22 +1,22 @@
 ---
-title: "Pràctica 1. Introducció a R. Variables aleatòries."
+title: "1. Introducció a R."
 output: html_document
 ---
 
 * [El llenguatge R](#llenguatge_R)
 * [Estructures de dades comuns](#estructures)
+* [Matrius i arrays](#matrix_array)
+* [Data frames](#data.frame)
+* [Subselecció](#seleccio)
 * [Les funcions](#funcions)
-* [Variables aleatòries](#variables)
-    * [Variable aleatòries discretes](#var_discretes)
-    * [Variable aleatòries contínues](#var_continues)
 * [Activitats](#activitats)
 
 
 # El llenguatge R {#llenguatge_R}
 
-R és un llenguatge de programació orientat principalment a l'anàlisi estadístic. La primera versió d'R va apareixer l'any 1992. R és un llenguatge funcional, aquest fet el fa semblant a altres llenguatges funcionals de programació com [Common Lisp](http://en.wikipedia.org/wiki/Common_Lisp) o [Haskell](http://en.wikipedia.org/wiki/Haskell_(programming_language)).
+R és un llenguatge de programació orientat principalment a l'anàlisi estadístic. La primera versió d'R va apareixer l'any 1992. R acepte diferents paradigmes de programació, però principalment és un llenguatge funcional, aquest fet el fa semblant a altres llenguatges funcionals com [Common Lisp](http://en.wikipedia.org/wiki/Common_Lisp) o [Haskell](http://en.wikipedia.org/wiki/Haskell_(programming_language)).
 
-Alguns dels punts forts:
+Alguns dels punts forts d'R són:
 
 * És lliure, codi obert, i disponible per les principals plataformes. Si fas un anàlisi, 
   qualsevol persona el pot replicar.
@@ -26,11 +26,10 @@ Alguns dels punts forts:
   de dades. Qualsevol cosa que se t'acudeixi fer, el més probable és que ja existeixi 
   un paquet que faci el mateix o gairebé.
 
-* Eines modernes. Els investigadors normalment publiquen els codis en R que han utilitzat 
-  per a obtenir els seus resultats.
+* Eines modernes. Molts investigadors publiquen els seus resultats junt amb el codi que han utilitzat.
   
 * Un llenguatge profundament establert per a l'anàlisi de dades. Capacitat de maneig 
-  de valors perduts, data.frame, seleccions,...
+  de valors perduts, data.frames, seleccions,...
   
 * Comunitat activa. Trobaràs molt forums on podràs rebre ajuda per tot allò que vulguis 
   fer [R-help mailing list](https://stat.ethz.ch/mailman/listinfo/r-help), 
@@ -38,7 +37,7 @@ Alguns dels punts forts:
   amb altre gent que està aprenent R via [twitter](https://twitter.com/search?q=%23rstats), 
   [linkedin](http://www.linkedin.com/groups/R-Project-Statistical-Computing-77616).
 
-* Eines per comunicar els teus resultats. Llibreries d'R permeten priduir resultats que són
+* Eines per comunicar els teus resultats. Llibreries d'R permeten produir resultats que són
   fàcils de compartir en html o pdf mitjançant [informes](http://yihui.name/knitr/), o per exemple crear
   [webs interactives](http://www.rstudio.com/shiny/).
   
@@ -48,15 +47,15 @@ Alguns dels punts forts:
 Algunes de les principals mancances:
 
 * La major part del codi R que trobareu per internet està escrit per resoldre un problema
-  concret. Per tant, el codi pot no sé ni elegant, ni ràpid, ni fàcil d'entendre.
+  concret. Per tant, el codi pot no ni ser elegant, ni ràpid, ni fàcil d'entendre.
 
-* Inconsistencia és un problema entre diferents llibreries, fins i tot dins de les llibreries
-  base d'R. Pensa que quan aprenguis R estàs davant d'un llenguatge que ha evolucionat durant
-  20 anys. Per tant, hi han moltes definicions historiques que poden confondre els fonaments 
+* L'inconsistencia és un problema entre diferents llibreries, fins i tot dins de les llibreries
+  base d'R. Al aprendre R estàs davant d'un llenguatge que ha evolucionat durant
+  20 anys. Per tant, hi han moltes definicions històriques que poden confondre els fonaments 
   del llenguatge.
   
 * R no és un llanguatge de programació especialment ràpid, i a més, un codi mal escrit pot ser
-  encara més lent. R també tendeix a consumir molts recursos de memória. Tingueu-ho present a 
+  encara més lent. R també tendeix a consumir molts recursos de memòria. Tingueu-ho present a 
   l'hora d'escriure els vostres programes.
   
 
@@ -199,6 +198,39 @@ mod <- lm(mpg ~ wt, data = mtcars)
 is.list(mod)
 ```
 
+
+
+# Atributs {#atributs}
+
+Tots els objectes poden tenir atributs, aquests són utilitzats per guardar metadata sobre l'objecte. Els atributs es poden pensar com una llista amb noms (noms únics).
+
+
+Hem vist
+
+```{r}
+y <- 1:10
+attr(y, "nou_atribut") <- "Això és un vector"
+attr(y, "nou_atribut")
+# [1] "Això és un vector"
+str(attributes(y))
+# List of 1
+#  $ nou_atribut: chr "Això és un vector"
+```
+
+La funció `structure()` permet crear directament un objecte amb els seu atributs
+
+```{r}
+structure(1:10, nou_atribut = "Això és un vector")
+```
+
+Per defecte, la major part d'atributs es perden al modificar un vector
+
+# Matrius i arrays {#matrix_array}
+
+# Data frames {#data.frame}
+
+# Subselecció {#seleccio}
+
 # Les funcions {#funcions}
 
 Les funcions són la part més important del llenguatge R: per escriure codi eficient amb R és molt important entendre com funcionen les funcions. El més important és entendre que dins el llenguatge R
@@ -225,148 +257,5 @@ g(function(x,y){
   }, 10)
 ```
 
-# Variables aleatòries {#variables}
 
-Una variable aleatoria $X$ és una funció que assigna esdeveniments aleatoris d'un espai $\Omega$ a un subconjunt de l'espai real $\mathbb{R}$. Les variable aleatòries es separen en dos grups: [discretes](#var_discretes) i [contínues](#var_continues).
-
-## Variable aleatòries discretes {#var_discretes}
-
-Imaginem que estem interessats en modelar el color dels ulls de les persones (suposem els colors marró/brown, verd/green i blau/blue) amb una variable aleatòria. Suposem que el nostre espai d'esdeveneniments és $\Omega = \{ \text{brown}, \text{green}, \text{blue} \}$. Definim la variable aleatoria $X_1$ que assigna valors com $X_1( \text{brown} ) = 1$,  $X_1( \text{green} ) = 2$ i  $X_1( \text{blue} ) = 3$.
-
-```{r}
-X1 <- function(color){
-  valor <- NA
-  if( color == "brown") valor = 1
-  if( color == "green") valor = 2
-  if( color == "blue") valor = 3
-  valor
-}
-```
-
-Suposem que la probabilitat de tenir els ulls marrons, verds i blaus són 0.5, 0.3, 0.2. A continuació utilitzarem la funció `sample()` d'R per crear 100 observacions d'ulls de persones seguint les probabilitats esmentades.
-
-```{r}
-mostra <- sample( x = c("brown", "green", "blue"), size = 100, replace = TRUE, prob = c(0.5, 0.3, 0.2))
-```
-
-Per assegurar que tots obtinguem els mateixos valors després de la generació aleatòria, podem utilitzar la funció `set.seed()` que ens permet fixar una llavor al procés aleatori.
-
-```{r}
-set.seed(1) # ens assegurem que tots tenim la mateixa llavor
-mostra <- sample( x = c("brown", "green", "blue"), size = 100, replace = TRUE, prob = c(0.5, 0.3, 0.2))
-```
-
-Podem comptar quant individus han resultat amb cada color amb la funció `table()`
-
-```{r}
-table(mostra)
-```
-
-podem dividir per la llargada del vector (`length()`) per obtenir-ne la freqüència relativa
-
-```{r}
-table(mostra) / length(mostra)
-```
-
-### Funció de probabilitat i de distribució
-
-La funció de probabilitat de la variable aleatòria $X_1$ és
-
-\[
-p(x) = P( \{ X_1(\omega) = x \} ) = 
-\left\{ 
-\begin{align}
-0.5 & \text{si x = 1}\\
-0.3 & \text{si x = 2}\\
-0.2 & \text{si x = 3}\\
-0 & \text{altrament}
-\end{align}
-\right.
-\]
-
-```{r}
-p <- function(x){
-  prob <- rep(0, length(x))
-  prob[x == 1] <- 0.5
-  prob[x == 2] <- 0.3
-  prob[x == 3] <- 0.2
-  prob
-}
-```
-
-Podem graficar la funció de probabilitat utilitzant la funció `plot()` d'R.
-
-```{r, fig.width=5, fig.height=4}
-x <- 0:5
-df.p <- data.frame('x' = x, 'p.x' = p(x))
-plot(df.p, type='h', ylim = c(0, 1), main = "Funció de probabilitat de X1")
-```
-
-Si volem graficar la funció de distribució podem utilitzar la funció `cumsum()` que ens permet acumular el valors d'un vector
-
-```{r, fig.width=5, fig.height=4}
-x <- 0:5
-df.F <- data.frame('x' = x, 'F.x' = cumsum(p(x)))
-plot(df.F, type='s', ylim = c(0, 1), main = "Funció de distribució de X1")
-```
-
-## Variable aleatòries contínues  {#var_continues}
-
-Volem modelar l'alçada d'una persona utilitzant una variable aleatòria. Suposem que per modelar l'alçada escollim una variable aleatòria $X_2$ normal amb mitjana $\mu = 1.65$ i $\sigma = 0.075$, escrit breument, $X_2 \sim N(\mu=1.65, \sigma=0.075)$.
-
-R disposa de la funció `rnorm()` que ens permet generar variables normals amb una mitjana i desviació específica.
-
-```{r}
-set.seed(1)
-alcades <- rnorm(n = 100, mean = 1.65, sd = 0.075)
-```
-
-Amb la funció `summary()` podem obtenir una descriptive senzilla d'una vector numèric.
-
-```{r}
-summary(alcades)
-```
-
-La funció `hist()` permet dibuixar l'histograma d'un vector numèric.
-
-```{r, fig.width=5, fig.height=4}
-hist(alcades, main='Histograma d\'alçades', xlab='Alçada (metres)', ylab='Freqüència')
-```
-
-### Funció de densitat i de distribució
-
-La funció de densitat d'una variable normal s'escriu com
-
-\[
-f(x) = \frac{1}{\sigma \sqrt(2 \pi)} exp\left\{ -\frac{(x-\mu)^2}{2 \sigma^2}  \right\}.
-\]
-
-La funció `dnorm()` ens permet calcular el valor de la funció de densitat d'una variable normal en un punt concret. Amb aquesta funció podem dibuixar la funció de densitat de la variable aleatòria $X_2$.
-
-```{r, fig.width=5, fig.height=4}
-x = seq(from = 1.3, to = 2, by = 0.01)
-df.f = data.frame('x' = x, 'f.x' = dnorm(x, mean = 1.65, sd = 0.075))
-plot(df.f, type='l', main = 'Funció de densitat de X2')
-```
-
-
-La funció de distribució la podem calcular amb la funció `qnorm()`.
-
-```{r, fig.width=5, fig.height=4}
-x = seq(from = 1.3, to = 2, by = 0.01)
-df.F = data.frame('x' = x, 'f.x' = pnorm(x, mean = 1.65, sd = 0.075))
-plot(df.F, type='l', main = 'Funció de distribució de X2')
-```
-
-# Activitats {#activitats}
-
-## Càlcul de probabilitats
-
-Imaginem que els paràmetre d'una població és desconegut per nosaltres.
-
-```{r}
-set.seed(1)
-mu = runif(1, min = 10, max = 20)
-desv = runif(1, min = 0, max = 2)
-```
 

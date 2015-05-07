@@ -1,0 +1,16 @@
+---
+title: "Mostreig"
+output: html_document
+---
+
+* [Mostreig Aleatori Simple (M.A.S.)](#mas)
+* [Mostreig Sistemàtic](#ms)
+* [Mostreig Estratificat](#me)
+* [Mostreig per Aglomerats](#ma)
+* [Activitats](#activitats)
+
+# Mostreig Aleatori Simple (M.A.S.) {#mas}
+# Mostreig Sistemàtic {#ms}
+# Mostreig Estratificat {#me}
+# Mostreig per Aglomerats {#ma}
+# Activitats {#activitats}
