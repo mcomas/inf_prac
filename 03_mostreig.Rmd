@@ -1,13 +1,9 @@
 ---
 title: "Mostreig"
-output: html_document
+output:
+  html_document:
+    toc: yes
 ---
-
-* [Mostreig Aleatori Simple (M.A.S.)](#mas)
-* [Mostreig Sistemàtic](#ms)
-* [Mostreig Estratificat](#me)
-* [Mostreig per Aglomerats](#ma)
-* [Activitats](#activitats)
 
 # Mostreig Aleatori Simple (M.A.S.) {#mas}
 # Mostreig Sistemàtic {#ms}

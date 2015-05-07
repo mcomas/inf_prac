@@ -1,11 +1,9 @@
 ---
 title: "Variables aleatòries"
-output: html_document
+output:
+  html_document:
+    toc: yes
 ---
-
-* [Variables aleatòries](#variables)
-    * [Variable aleatòries discretes](#var_discretes)
-    * [Variable aleatòries contínues](#var_continues)
 
 # Variables aleatòries {#variables}
 

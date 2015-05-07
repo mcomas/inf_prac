@@ -1,16 +1,9 @@
 ---
 title: "1. Introducció a R."
-output: html_document
+output:
+  html_document:
+    toc: yes
 ---
-
-* [El llenguatge R](#llenguatge_R)
-* [Estructures de dades comuns](#estructures)
-* [Matrius i arrays](#matrix_array)
-* [Data frames](#data.frame)
-* [Subselecció](#seleccio)
-* [Les funcions](#funcions)
-* [Activitats](#activitats)
-
 
 # El llenguatge R {#llenguatge_R}
 

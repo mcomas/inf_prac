@@ -1,6 +1,8 @@
 ---
-title: "Models lineals (1): Estimació i intervals"
-output: html_document
+title: 'Models lineals (1): Estimació i intervals'
+output:
+  html_document:
+    toc: yes
 ---
 
 # Estimació puntual
