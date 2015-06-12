@@ -1,0 +1,991 @@
+<cols>
+ <col id="250019" scheme="mun">Abella de la Conca</col>
+ <col id="080018" scheme="mun">Abrera</col>
+ <col id="250024" scheme="mun">Àger</col>
+ <col id="250030" scheme="mun">Agramunt</col>
+ <col id="080023" scheme="mun">Aguilar de Segarra</col>
+ <col id="170010" scheme="mun">Agullana</col>
+ <col id="080142" scheme="mun">Aiguafreda</col>
+ <col id="430017" scheme="mun">Aiguamúrcia</col>
+ <col id="170025" scheme="mun">Aiguaviva</col>
+ <col id="250387" scheme="mun">Aitona</col>
+ <col id="250045" scheme="mun">Alamús, els</col>
+ <col id="250058" scheme="mun">Alàs i Cerc</col>
+ <col id="250061" scheme="mun">Albagés, l&apos;</col>
+ <col id="170031" scheme="mun">Albanyà</col>
+ <col id="250077" scheme="mun">Albatàrrec</col>
+ <col id="250083" scheme="mun">Albesa</col>
+ <col id="250096" scheme="mun">Albi, l&apos;</col>
+ <col id="430022" scheme="mun">Albinyana</col>
+ <col id="430038" scheme="mun">Albiol, l&apos;</col>
+ <col id="170046" scheme="mun">Albons</col>
+ <col id="430043" scheme="mun">Alcanar</col>
+ <col id="250100" scheme="mun">Alcanó</col>
+ <col id="250117" scheme="mun">Alcarràs</col>
+ <col id="250122" scheme="mun">Alcoletge</col>
+ <col id="430056" scheme="mun">Alcover</col>
+ <col id="439044" scheme="mun">Aldea, l&apos;</col>
+ <col id="430069" scheme="mun">Aldover</col>
+ <col id="430075" scheme="mun">Aleixar, l&apos;</col>
+ <col id="080039" scheme="mun">Alella</col>
+ <col id="430081" scheme="mun">Alfara de Carles</col>
+ <col id="250138" scheme="mun">Alfarràs</col>
+ <col id="250143" scheme="mun">Alfés</col>
+ <col id="430094" scheme="mun">Alforja</col>
+ <col id="250156" scheme="mun">Algerri</col>
+ <col id="250169" scheme="mun">Alguaire</col>
+ <col id="250175" scheme="mun">Alins</col>
+ <col id="430108" scheme="mun">Alió</col>
+ <col id="250194" scheme="mun">Almacelles</col>
+ <col id="250208" scheme="mun">Almatret</col>
+ <col id="250215" scheme="mun">Almenar</col>
+ <col id="430115" scheme="mun">Almoster</col>
+ <col id="250220" scheme="mun">Alòs de Balaguer</col>
+ <col id="170062" scheme="mun">Alp</col>
+ <col id="080044" scheme="mun">Alpens</col>
+ <col id="250236" scheme="mun">Alpicat</col>
+ <col id="250241" scheme="mun">Alt Àneu</col>
+ <col id="430120" scheme="mun">Altafulla</col>
+ <col id="170078" scheme="mun">Amer</col>
+ <col id="430136" scheme="mun">Ametlla de Mar, l&apos;</col>
+ <col id="080057" scheme="mun">Ametlla del Vallès, l&apos;</col>
+ <col id="439060" scheme="mun">Ampolla, l&apos;</col>
+ <col id="430141" scheme="mun">Amposta</col>
+ <col id="170084" scheme="mun">Anglès</col>
+ <col id="250273" scheme="mun">Anglesola</col>
+ <col id="250292" scheme="mun">Arbeca</col>
+ <col id="430167" scheme="mun">Arboç, l&apos;</col>
+ <col id="430154" scheme="mun">Arbolí</col>
+ <col id="170097" scheme="mun">Arbúcies</col>
+ <col id="080060" scheme="mun">Arenys de Mar</col>
+ <col id="080076" scheme="mun">Arenys de Munt</col>
+ <col id="170101" scheme="mun">Argelaguer</col>
+ <col id="080082" scheme="mun">Argençola</col>
+ <col id="430173" scheme="mun">Argentera, l&apos;</col>
+ <col id="080095" scheme="mun">Argentona</col>
+ <col id="170118" scheme="mun">Armentera, l&apos;</col>
+ <col id="430189" scheme="mun">Arnes</col>
+ <col id="250313" scheme="mun">Arres</col>
+ <col id="250328" scheme="mun">Arsèguel</col>
+ <col id="080109" scheme="mun">Artés</col>
+ <col id="250334" scheme="mun">Artesa de Lleida</col>
+ <col id="250349" scheme="mun">Artesa de Segre</col>
+ <col id="430192" scheme="mun">Ascó</col>
+ <col id="250365" scheme="mun">Aspa</col>
+ <col id="250371" scheme="mun">Avellanes i Santa Linya, les</col>
+ <col id="080116" scheme="mun">Avià</col>
+ <col id="080121" scheme="mun">Avinyó</col>
+ <col id="170123" scheme="mun">Avinyonet de Puigventós</col>
+ <col id="080137" scheme="mun">Avinyonet del Penedès</col>
+ <col id="080155" scheme="mun">Badalona</col>
+ <col id="089045" scheme="mun">Badia del Vallès</col>
+ <col id="080168" scheme="mun">Bagà</col>
+ <col id="250390" scheme="mun">Baix Pallars</col>
+ <col id="250404" scheme="mun">Balaguer</col>
+ <col id="080174" scheme="mun">Balenyà</col>
+ <col id="080180" scheme="mun">Balsareny</col>
+ <col id="430206" scheme="mun">Banyeres del Penedès</col>
+ <col id="170157" scheme="mun">Banyoles</col>
+ <col id="250411" scheme="mun">Barbens</col>
+ <col id="430213" scheme="mun">Barberà de la Conca</col>
+ <col id="082520" scheme="mun">Barberà del Vallès</col>
+ <col id="080193" scheme="mun">Barcelona</col>
+ <col id="250426" scheme="mun">Baronia de Rialb, la</col>
+ <col id="170160" scheme="mun">Bàscara</col>
+ <col id="250447" scheme="mun">Bassella</col>
+ <col id="430228" scheme="mun">Batea</col>
+ <col id="250450" scheme="mun">Bausen</col>
+ <col id="080207" scheme="mun">Begues</col>
+ <col id="170139" scheme="mun">Begur</col>
+ <col id="250463" scheme="mun">Belianes</col>
+ <col id="250485" scheme="mun">Bell-lloc d&apos;Urgell</col>
+ <col id="251706" scheme="mun">Bellaguarda</col>
+ <col id="170182" scheme="mun">Bellcaire d&apos;Empordà</col>
+ <col id="250479" scheme="mun">Bellcaire d&apos;Urgell</col>
+ <col id="250498" scheme="mun">Bellmunt d&apos;Urgell</col>
+ <col id="430234" scheme="mun">Bellmunt del Priorat</col>
+ <col id="080214" scheme="mun">Bellprat</col>
+ <col id="250501" scheme="mun">Bellpuig</col>
+ <col id="430249" scheme="mun">Bellvei</col>
+ <col id="250518" scheme="mun">Bellver de Cerdanya</col>
+ <col id="250523" scheme="mun">Bellvís</col>
+ <col id="250539" scheme="mun">Benavent de Segrià</col>
+ <col id="430252" scheme="mun">Benifallet</col>
+ <col id="430265" scheme="mun">Benissanet</col>
+ <col id="080229" scheme="mun">Berga</col>
+ <col id="170195" scheme="mun">Besalú</col>
+ <col id="170209" scheme="mun">Bescanó</col>
+ <col id="170216" scheme="mun">Beuda</col>
+ <col id="080235" scheme="mun">Bigues i Riells</col>
+ <col id="250557" scheme="mun">Biosca</col>
+ <col id="170221" scheme="mun">Bisbal d&apos;Empordà, la</col>
+ <col id="430271" scheme="mun">Bisbal de Falset, la</col>
+ <col id="430287" scheme="mun">Bisbal del Penedès, la</col>
+ <col id="172348" scheme="mun">Biure</col>
+ <col id="430290" scheme="mun">Blancafort</col>
+ <col id="170237" scheme="mun">Blanes</col>
+ <col id="170293" scheme="mun">Boadella i les Escaules</col>
+ <col id="170242" scheme="mun">Bolvir</col>
+ <col id="430304" scheme="mun">Bonastre</col>
+ <col id="250576" scheme="mun">Bòrdes, Es</col>
+ <col id="170255" scheme="mun">Bordils</col>
+ <col id="250582" scheme="mun">Borges Blanques, les</col>
+ <col id="430311" scheme="mun">Borges del Camp, les</col>
+ <col id="170268" scheme="mun">Borrassà</col>
+ <col id="080240" scheme="mun">Borredà</col>
+ <col id="250595" scheme="mun">Bossòst</col>
+ <col id="430326" scheme="mun">Bot</col>
+ <col id="430332" scheme="mun">Botarell</col>
+ <col id="250560" scheme="mun">Bovera</col>
+ <col id="430347" scheme="mun">Bràfim</col>
+ <col id="170274" scheme="mun">Breda</col>
+ <col id="080253" scheme="mun">Bruc, el</col>
+ <col id="080266" scheme="mun">Brull, el</col>
+ <col id="170280" scheme="mun">Brunyola</col>
+ <col id="430350" scheme="mun">Cabacés</col>
+ <col id="250609" scheme="mun">Cabanabona</col>
+ <col id="170314" scheme="mun">Cabanelles</col>
+ <col id="170307" scheme="mun">Cabanes</col>
+ <col id="080272" scheme="mun">Cabanyes, les</col>
+ <col id="250616" scheme="mun">Cabó</col>
+ <col id="430363" scheme="mun">Cabra del Camp</col>
+ <col id="080288" scheme="mun">Cabrera d&apos;Anoia</col>
+ <col id="080291" scheme="mun">Cabrera de Mar</col>
+ <col id="080305" scheme="mun">Cabrils</col>
+ <col id="170329" scheme="mun">Cadaqués</col>
+ <col id="080312" scheme="mun">Calaf</col>
+ <col id="430379" scheme="mun">Calafell</col>
+ <col id="080348" scheme="mun">Calders</col>
+ <col id="080327" scheme="mun">Caldes d&apos;Estrac</col>
+ <col id="170335" scheme="mun">Caldes de Malavella</col>
+ <col id="080333" scheme="mun">Caldes de Montbui</col>
+ <col id="080351" scheme="mun">Calella</col>
+ <col id="080370" scheme="mun">Calldetenes</col>
+ <col id="080386" scheme="mun">Callús</col>
+ <col id="170340" scheme="mun">Calonge</col>
+ <col id="080364" scheme="mun">Calonge de Segarra</col>
+ <col id="250621" scheme="mun">Camarasa</col>
+ <col id="439039" scheme="mun">Camarles</col>
+ <col id="430385" scheme="mun">Cambrils</col>
+ <col id="170353" scheme="mun">Camós</col>
+ <col id="170366" scheme="mun">Campdevànol</col>
+ <col id="170372" scheme="mun">Campelles</col>
+ <col id="080399" scheme="mun">Campins</col>
+ <col id="170388" scheme="mun">Campllong</col>
+ <col id="170391" scheme="mun">Camprodon</col>
+ <col id="250637" scheme="mun">Canejan</col>
+ <col id="170405" scheme="mun">Canet d&apos;Adri</col>
+ <col id="080403" scheme="mun">Canet de Mar</col>
+ <col id="439076" scheme="mun">Canonja, la</col>
+ <col id="080410" scheme="mun">Canovelles</col>
+ <col id="080425" scheme="mun">Cànoves i Samalús</col>
+ <col id="170412" scheme="mun">Cantallops</col>
+ <col id="080431" scheme="mun">Canyelles</col>
+ <col id="430398" scheme="mun">Capafonts</col>
+ <col id="430402" scheme="mun">Capçanes</col>
+ <col id="080446" scheme="mun">Capellades</col>
+ <col id="170427" scheme="mun">Capmany</col>
+ <col id="080459" scheme="mun">Capolat</col>
+ <col id="080462" scheme="mun">Cardedeu</col>
+ <col id="080478" scheme="mun">Cardona</col>
+ <col id="080484" scheme="mun">Carme</col>
+ <col id="430419" scheme="mun">Caseres</col>
+ <col id="170448" scheme="mun">Cassà de la Selva</col>
+ <col id="080497" scheme="mun">Casserres</col>
+ <col id="080575" scheme="mun">Castell de l&apos;Areny</col>
+ <col id="259046" scheme="mun">Castell de Mur</col>
+ <col id="170486" scheme="mun">Castell-Platja d&apos;Aro</col>
+ <col id="250642" scheme="mun">Castellar de la Ribera</col>
+ <col id="080522" scheme="mun">Castellar de n&apos;Hug</col>
+ <col id="080500" scheme="mun">Castellar del Riu</col>
+ <col id="080517" scheme="mun">Castellar del Vallès</col>
+ <col id="080538" scheme="mun">Castellbell i el Vilar</col>
+ <col id="080543" scheme="mun">Castellbisbal</col>
+ <col id="080556" scheme="mun">Castellcir</col>
+ <col id="250674" scheme="mun">Castelldans</col>
+ <col id="080569" scheme="mun">Castelldefels</col>
+ <col id="080581" scheme="mun">Castellet i la Gornal</col>
+ <col id="170464" scheme="mun">Castellfollit de la Roca</col>
+ <col id="080608" scheme="mun">Castellfollit de Riubregós</col>
+ <col id="080594" scheme="mun">Castellfollit del Boix</col>
+ <col id="080615" scheme="mun">Castellgalí</col>
+ <col id="080620" scheme="mun">Castellnou de Bages</col>
+ <col id="250680" scheme="mun">Castellnou de Seana</col>
+ <col id="170470" scheme="mun">Castelló d&apos;Empúries</col>
+ <col id="250693" scheme="mun">Castelló de Farfanya</col>
+ <col id="080636" scheme="mun">Castellolí</col>
+ <col id="250707" scheme="mun">Castellserà</col>
+ <col id="080641" scheme="mun">Castellterçol</col>
+ <col id="430424" scheme="mun">Castellvell del Camp</col>
+ <col id="080654" scheme="mun">Castellví de la Marca</col>
+ <col id="080667" scheme="mun">Castellví de Rosanes</col>
+ <col id="430430" scheme="mun">Catllar, el</col>
+ <col id="250714" scheme="mun">Cava</col>
+ <col id="171899" scheme="mun">Cellera de Ter, la</col>
+ <col id="170499" scheme="mun">Celrà</col>
+ <col id="080673" scheme="mun">Centelles</col>
+ <col id="082687" scheme="mun">Cercs</col>
+ <col id="082665" scheme="mun">Cerdanyola del Vallès</col>
+ <col id="080689" scheme="mun">Cervelló</col>
+ <col id="250729" scheme="mun">Cervera</col>
+ <col id="250735" scheme="mun">Cervià de les Garrigues</col>
+ <col id="170502" scheme="mun">Cervià de Ter</col>
+ <col id="170519" scheme="mun">Cistella</col>
+ <col id="250740" scheme="mun">Ciutadilla</col>
+ <col id="250753" scheme="mun">Clariana de Cardener</col>
+ <col id="250766" scheme="mun">Cogul, el</col>
+ <col id="170545" scheme="mun">Colera</col>
+ <col id="250772" scheme="mun">Coll de Nargó</col>
+ <col id="080692" scheme="mun">Collbató</col>
+ <col id="430458" scheme="mun">Colldejou</col>
+ <col id="080706" scheme="mun">Collsuspina</col>
+ <col id="170558" scheme="mun">Colomers</col>
+ <col id="251636" scheme="mun">Coma i la Pedra, la</col>
+ <col id="251615" scheme="mun">Conca de Dalt</col>
+ <col id="430461" scheme="mun">Conesa</col>
+ <col id="430477" scheme="mun">Constantí</col>
+ <col id="080713" scheme="mun">Copons</col>
+ <col id="430483" scheme="mun">Corbera d&apos;Ebre</col>
+ <col id="080728" scheme="mun">Corbera de Llobregat</col>
+ <col id="250788" scheme="mun">Corbins</col>
+ <col id="170577" scheme="mun">Corçà</col>
+ <col id="080734" scheme="mun">Cornellà de Llobregat</col>
+ <col id="170561" scheme="mun">Cornellà del Terri</col>
+ <col id="430496" scheme="mun">Cornudella de Montsant</col>
+ <col id="430509" scheme="mun">Creixell</col>
+ <col id="170583" scheme="mun">Crespià</col>
+ <col id="179011" scheme="mun">Cruïlles, Monells i Sant Sadurní de l&apos;Heura</col>
+ <col id="080749" scheme="mun">Cubelles</col>
+ <col id="250791" scheme="mun">Cubells</col>
+ <col id="430516" scheme="mun">Cunit</col>
+ <col id="170600" scheme="mun">Darnius</col>
+ <col id="170617" scheme="mun">Das</col>
+ <col id="439018" scheme="mun">Deltebre</col>
+ <col id="080752" scheme="mun">Dosrius</col>
+ <col id="430537" scheme="mun">Duesaigües</col>
+ <col id="170622" scheme="mun">Escala, l&apos;</col>
+ <col id="080765" scheme="mun">Esparreguera</col>
+ <col id="170638" scheme="mun">Espinelves</col>
+ <col id="250812" scheme="mun">Espluga Calba, l&apos;</col>
+ <col id="430542" scheme="mun">Espluga de Francolí, l&apos;</col>
+ <col id="080771" scheme="mun">Esplugues de Llobregat</col>
+ <col id="170643" scheme="mun">Espolla</col>
+ <col id="170656" scheme="mun">Esponellà</col>
+ <col id="250827" scheme="mun">Espot</col>
+ <col id="080787" scheme="mun">Espunyola, l&apos;</col>
+ <col id="082541" scheme="mun">Esquirol, l&apos;</col>
+ <col id="250886" scheme="mun">Estamariu</col>
+ <col id="080790" scheme="mun">Estany, l&apos;</col>
+ <col id="250851" scheme="mun">Estaràs</col>
+ <col id="250864" scheme="mun">Esterri d&apos;Àneu</col>
+ <col id="250870" scheme="mun">Esterri de Cardós</col>
+ <col id="430555" scheme="mun">Falset</col>
+ <col id="170059" scheme="mun">Far d&apos;Empordà, el</col>
+ <col id="250899" scheme="mun">Farrera</col>
+ <col id="430568" scheme="mun">Fatarella, la</col>
+ <col id="430574" scheme="mun">Febró, la</col>
+ <col id="081347" scheme="mun">Figaró-Montmany</col>
+ <col id="080804" scheme="mun">Fígols</col>
+ <col id="259084" scheme="mun">Fígols i Alinyà</col>
+ <col id="430580" scheme="mun">Figuera, la</col>
+ <col id="170669" scheme="mun">Figueres</col>
+ <col id="430593" scheme="mun">Figuerola del Camp</col>
+ <col id="170675" scheme="mun">Flaçà</col>
+ <col id="430607" scheme="mun">Flix</col>
+ <col id="250925" scheme="mun">Floresta, la</col>
+ <col id="080826" scheme="mun">Fogars de la Selva</col>
+ <col id="080811" scheme="mun">Fogars de Montclús</col>
+ <col id="170681" scheme="mun">Foixà</col>
+ <col id="080832" scheme="mun">Folgueroles</col>
+ <col id="250931" scheme="mun">Fondarella</col>
+ <col id="080847" scheme="mun">Fonollosa</col>
+ <col id="080850" scheme="mun">Font-rubí</col>
+ <col id="170694" scheme="mun">Fontanals de Cerdanya</col>
+ <col id="170708" scheme="mun">Fontanilles</col>
+ <col id="170715" scheme="mun">Fontcoberta</col>
+ <col id="250946" scheme="mun">Foradada</col>
+ <col id="179026" scheme="mun">Forallac</col>
+ <col id="430614" scheme="mun">Forès</col>
+ <col id="170736" scheme="mun">Fornells de la Selva</col>
+ <col id="170741" scheme="mun">Fortià</col>
+ <col id="080863" scheme="mun">Franqueses del Vallès, les</col>
+ <col id="430629" scheme="mun">Freginals</col>
+ <col id="250962" scheme="mun">Fuliola, la</col>
+ <col id="250978" scheme="mun">Fulleda</col>
+ <col id="080902" scheme="mun">Gaià</col>
+ <col id="430635" scheme="mun">Galera, la</col>
+ <col id="080879" scheme="mun">Gallifa</col>
+ <col id="430640" scheme="mun">Gandesa</col>
+ <col id="430653" scheme="mun">Garcia</col>
+ <col id="430666" scheme="mun">Garidells, els</col>
+ <col id="080885" scheme="mun">Garriga, la</col>
+ <col id="170754" scheme="mun">Garrigàs</col>
+ <col id="170767" scheme="mun">Garrigoles</col>
+ <col id="170773" scheme="mun">Garriguella</col>
+ <col id="080898" scheme="mun">Gavà</col>
+ <col id="250984" scheme="mun">Gavet de la Conca</col>
+ <col id="080919" scheme="mun">Gelida</col>
+ <col id="170789" scheme="mun">Ger</col>
+ <col id="259123" scheme="mun">Gimenells i el Pla de la Font</col>
+ <col id="430672" scheme="mun">Ginestar</col>
+ <col id="170792" scheme="mun">Girona</col>
+ <col id="080924" scheme="mun">Gironella</col>
+ <col id="080930" scheme="mun">Gisclareny</col>
+ <col id="430688" scheme="mun">Godall</col>
+ <col id="250997" scheme="mun">Golmés</col>
+ <col id="170806" scheme="mun">Gombrèn</col>
+ <col id="251001" scheme="mun">Gósol</col>
+ <col id="080945" scheme="mun">Granada, la</col>
+ <col id="251018" scheme="mun">Granadella, la</col>
+ <col id="080958" scheme="mun">Granera</col>
+ <col id="251023" scheme="mun">Granja d&apos;Escarp, la</col>
+ <col id="080961" scheme="mun">Granollers</col>
+ <col id="251039" scheme="mun">Granyanella</col>
+ <col id="251057" scheme="mun">Granyena de les Garrigues</col>
+ <col id="251044" scheme="mun">Granyena de Segarra</col>
+ <col id="430691" scheme="mun">Gratallops</col>
+ <col id="080977" scheme="mun">Gualba</col>
+ <col id="170813" scheme="mun">Gualta</col>
+ <col id="080996" scheme="mun">Guardiola de Berguedà</col>
+ <col id="430705" scheme="mun">Guiamets, els</col>
+ <col id="170828" scheme="mun">Guils de Cerdanya</col>
+ <col id="251095" scheme="mun">Guimerà</col>
+ <col id="259031" scheme="mun">Guingueta d&apos;Àneu, la</col>
+ <col id="251109" scheme="mun">Guissona</col>
+ <col id="251116" scheme="mun">Guixers</col>
+ <col id="081000" scheme="mun">Gurb</col>
+ <col id="430712" scheme="mun">Horta de Sant Joan</col>
+ <col id="081017" scheme="mun">Hospitalet de Llobregat, l&apos;</col>
+ <col id="081629" scheme="mun">Hostalets de Pierola, els</col>
+ <col id="170834" scheme="mun">Hostalric</col>
+ <col id="081022" scheme="mun">Igualada</col>
+ <col id="251155" scheme="mun">Isona i Conca Dellà</col>
+ <col id="170849" scheme="mun">Isòvol</col>
+ <col id="251137" scheme="mun">Ivars d&apos;Urgell</col>
+ <col id="251121" scheme="mun">Ivars de Noguera</col>
+ <col id="251142" scheme="mun">Ivorra</col>
+ <col id="170852" scheme="mun">Jafre</col>
+ <col id="170865" scheme="mun">Jonquera, la</col>
+ <col id="081038" scheme="mun">Jorba</col>
+ <col id="259101" scheme="mun">Josa i Tuixén</col>
+ <col id="170871" scheme="mun">Juià</col>
+ <col id="251180" scheme="mun">Juncosa</col>
+ <col id="251193" scheme="mun">Juneda</col>
+ <col id="251214" scheme="mun">Les</col>
+ <col id="251229" scheme="mun">Linyola</col>
+ <col id="081043" scheme="mun">Llacuna, la</col>
+ <col id="170887" scheme="mun">Lladó</col>
+ <col id="251235" scheme="mun">Lladorre</col>
+ <col id="251240" scheme="mun">Lladurs</col>
+ <col id="081056" scheme="mun">Llagosta, la</col>
+ <col id="170890" scheme="mun">Llagostera</col>
+ <col id="170904" scheme="mun">Llambilles</col>
+ <col id="170911" scheme="mun">Llanars</col>
+ <col id="170926" scheme="mun">Llançà</col>
+ <col id="251253" scheme="mun">Llardecans</col>
+ <col id="251266" scheme="mun">Llavorsí</col>
+ <col id="251207" scheme="mun">Lleida</col>
+ <col id="170932" scheme="mun">Llers</col>
+ <col id="251272" scheme="mun">Lles de Cerdanya</col>
+ <col id="081075" scheme="mun">Lliçà d&apos;Amunt</col>
+ <col id="081081" scheme="mun">Lliçà de Vall</col>
+ <col id="251288" scheme="mun">Llimiana</col>
+ <col id="081069" scheme="mun">Llinars del Vallès</col>
+ <col id="170947" scheme="mun">Llívia</col>
+ <col id="430727" scheme="mun">Lloar, el</col>
+ <col id="251291" scheme="mun">Llobera</col>
+ <col id="430733" scheme="mun">Llorac</col>
+ <col id="430748" scheme="mun">Llorenç del Penedès</col>
+ <col id="170950" scheme="mun">Lloret de Mar</col>
+ <col id="170963" scheme="mun">Llosses, les</col>
+ <col id="081094" scheme="mun">Lluçà</col>
+ <col id="171024" scheme="mun">Maçanet de Cabrenys</col>
+ <col id="171030" scheme="mun">Maçanet de la Selva</col>
+ <col id="170979" scheme="mun">Madremanya</col>
+ <col id="170985" scheme="mun">Maià de Montcal</col>
+ <col id="251333" scheme="mun">Maials</col>
+ <col id="251305" scheme="mun">Maldà</col>
+ <col id="081108" scheme="mun">Malgrat de Mar</col>
+ <col id="081115" scheme="mun">Malla</col>
+ <col id="081120" scheme="mun">Manlleu</col>
+ <col id="081136" scheme="mun">Manresa</col>
+ <col id="430764" scheme="mun">Marçà</col>
+ <col id="430751" scheme="mun">Margalef</col>
+ <col id="082423" scheme="mun">Marganell</col>
+ <col id="081141" scheme="mun">Martorell</col>
+ <col id="081154" scheme="mun">Martorelles</col>
+ <col id="430770" scheme="mun">Mas de Barberans</col>
+ <col id="171002" scheme="mun">Masarac</col>
+ <col id="430786" scheme="mun">Masdenverge</col>
+ <col id="081167" scheme="mun">Masies de Roda, les</col>
+ <col id="081173" scheme="mun">Masies de Voltregà, les</col>
+ <col id="430799" scheme="mun">Masllorenç</col>
+ <col id="081189" scheme="mun">Masnou, el</col>
+ <col id="430803" scheme="mun">Masó, la</col>
+ <col id="430810" scheme="mun">Maspujols</col>
+ <col id="081192" scheme="mun">Masquefa</col>
+ <col id="430825" scheme="mun">Masroig, el</col>
+ <col id="251312" scheme="mun">Massalcoreig</col>
+ <col id="171019" scheme="mun">Massanes</col>
+ <col id="251327" scheme="mun">Massoteres</col>
+ <col id="081206" scheme="mun">Matadepera</col>
+ <col id="081213" scheme="mun">Mataró</col>
+ <col id="081228" scheme="mun">Mediona</col>
+ <col id="251348" scheme="mun">Menàrguens</col>
+ <col id="170998" scheme="mun">Meranges</col>
+ <col id="171058" scheme="mun">Mieres</col>
+ <col id="430831" scheme="mun">Milà, el</col>
+ <col id="251351" scheme="mun">Miralcamp</col>
+ <col id="430846" scheme="mun">Miravet</col>
+ <col id="081385" scheme="mun">Moià</col>
+ <col id="430859" scheme="mun">Molar, el</col>
+ <col id="081234" scheme="mun">Molins de Rei</col>
+ <col id="251370" scheme="mun">Mollerussa</col>
+ <col id="171061" scheme="mun">Mollet de Peralada</col>
+ <col id="081249" scheme="mun">Mollet del Vallès</col>
+ <col id="171077" scheme="mun">Molló</col>
+ <col id="251364" scheme="mun">Molsosa, la</col>
+ <col id="081287" scheme="mun">Monistrol de Calders</col>
+ <col id="081271" scheme="mun">Monistrol de Montserrat</col>
+ <col id="430918" scheme="mun">Mont-ral</col>
+ <col id="171100" scheme="mun">Mont-ras</col>
+ <col id="430923" scheme="mun">Mont-roig del Camp</col>
+ <col id="171096" scheme="mun">Montagut i Oix</col>
+ <col id="430862" scheme="mun">Montblanc</col>
+ <col id="430884" scheme="mun">Montbrió del Camp</col>
+ <col id="081252" scheme="mun">Montcada i Reixac</col>
+ <col id="081304" scheme="mun">Montclar</col>
+ <col id="251399" scheme="mun">Montellà i Martinet</col>
+ <col id="081311" scheme="mun">Montesquiu</col>
+ <col id="251403" scheme="mun">Montferrer i Castellbò</col>
+ <col id="430897" scheme="mun">Montferri</col>
+ <col id="251386" scheme="mun">Montgai</col>
+ <col id="081265" scheme="mun">Montgat</col>
+ <col id="081326" scheme="mun">Montmajor</col>
+ <col id="081332" scheme="mun">Montmaneu</col>
+ <col id="430901" scheme="mun">Montmell, el</col>
+ <col id="081350" scheme="mun">Montmeló</col>
+ <col id="251425" scheme="mun">Montoliu de Lleida</col>
+ <col id="251410" scheme="mun">Montoliu de Segarra</col>
+ <col id="251431" scheme="mun">Montornès de Segarra</col>
+ <col id="081363" scheme="mun">Montornès del Vallès</col>
+ <col id="081379" scheme="mun">Montseny</col>
+ <col id="430939" scheme="mun">Móra d&apos;Ebre</col>
+ <col id="430944" scheme="mun">Móra la Nova</col>
+ <col id="430957" scheme="mun">Morell, el</col>
+ <col id="430960" scheme="mun">Morera de Montsant, la</col>
+ <col id="081290" scheme="mun">Muntanyola</col>
+ <col id="081398" scheme="mun">Mura</col>
+ <col id="251459" scheme="mun">Nalec</col>
+ <col id="250254" scheme="mun">Naut Aran</col>
+ <col id="081402" scheme="mun">Navarcles</col>
+ <col id="081419" scheme="mun">Navàs</col>
+ <col id="171117" scheme="mun">Navata</col>
+ <col id="251462" scheme="mun">Navès</col>
+ <col id="081424" scheme="mun">Nou de Berguedà, la</col>
+ <col id="430976" scheme="mun">Nou de Gaià, la</col>
+ <col id="430982" scheme="mun">Nulles</col>
+ <col id="251484" scheme="mun">Odèn</col>
+ <col id="081430" scheme="mun">Òdena</col>
+ <col id="171122" scheme="mun">Ogassa</col>
+ <col id="081458" scheme="mun">Olèrdola</col>
+ <col id="081461" scheme="mun">Olesa de Bonesvalls</col>
+ <col id="081477" scheme="mun">Olesa de Montserrat</col>
+ <col id="251497" scheme="mun">Oliana</col>
+ <col id="251500" scheme="mun">Oliola</col>
+ <col id="251517" scheme="mun">Olius</col>
+ <col id="081483" scheme="mun">Olivella</col>
+ <col id="081496" scheme="mun">Olost</col>
+ <col id="171143" scheme="mun">Olot</col>
+ <col id="251522" scheme="mun">Oluges, les</col>
+ <col id="081445" scheme="mun">Olvan</col>
+ <col id="251538" scheme="mun">Omellons, els</col>
+ <col id="251543" scheme="mun">Omells de na Gaia, els</col>
+ <col id="171156" scheme="mun">Ordis</col>
+ <col id="251556" scheme="mun">Organyà</col>
+ <col id="081509" scheme="mun">Orís</col>
+ <col id="081516" scheme="mun">Oristà</col>
+ <col id="081521" scheme="mun">Orpí</col>
+ <col id="081537" scheme="mun">Òrrius</col>
+ <col id="251569" scheme="mun">Os de Balaguer</col>
+ <col id="171169" scheme="mun">Osor</col>
+ <col id="251575" scheme="mun">Ossó de Sió</col>
+ <col id="081542" scheme="mun">Pacs del Penedès</col>
+ <col id="081555" scheme="mun">Palafolls</col>
+ <col id="171175" scheme="mun">Palafrugell</col>
+ <col id="171181" scheme="mun">Palamós</col>
+ <col id="251581" scheme="mun">Palau d&apos;Anglesola, el</col>
+ <col id="171194" scheme="mun">Palau de Santa Eulàlia</col>
+ <col id="171215" scheme="mun">Palau-sator</col>
+ <col id="171208" scheme="mun">Palau-saverdera</col>
+ <col id="081568" scheme="mun">Palau-solità i Plegamans</col>
+ <col id="431009" scheme="mun">Pallaresos, els</col>
+ <col id="081574" scheme="mun">Pallejà</col>
+ <col id="430995" scheme="mun">Palma d&apos;Ebre, la</col>
+ <col id="089058" scheme="mun">Palma de Cervelló, la</col>
+ <col id="171236" scheme="mun">Palol de Revardit</col>
+ <col id="171241" scheme="mun">Pals</col>
+ <col id="081580" scheme="mun">Papiol, el</col>
+ <col id="171254" scheme="mun">Pardines</col>
+ <col id="081593" scheme="mun">Parets del Vallès</col>
+ <col id="171267" scheme="mun">Parlavà</col>
+ <col id="431016" scheme="mun">Passanant i Belltall</col>
+ <col id="171289" scheme="mun">Pau</col>
+ <col id="431021" scheme="mun">Paüls</col>
+ <col id="171292" scheme="mun">Pedret i Marzà</col>
+ <col id="251641" scheme="mun">Penelles</col>
+ <col id="171306" scheme="mun">Pera, la</col>
+ <col id="081607" scheme="mun">Perafita</col>
+ <col id="431037" scheme="mun">Perafort</col>
+ <col id="171328" scheme="mun">Peralada</col>
+ <col id="251654" scheme="mun">Peramola</col>
+ <col id="431042" scheme="mun">Perelló, el</col>
+ <col id="081614" scheme="mun">Piera</col>
+ <col id="431055" scheme="mun">Piles, les</col>
+ <col id="081635" scheme="mun">Pineda de Mar</col>
+ <col id="431068" scheme="mun">Pinell de Brai, el</col>
+ <col id="251667" scheme="mun">Pinell de Solsonès</col>
+ <col id="251673" scheme="mun">Pinós</col>
+ <col id="431074" scheme="mun">Pira</col>
+ <col id="431080" scheme="mun">Pla de Santa Maria, el</col>
+ <col id="081640" scheme="mun">Pla del Penedès, el</col>
+ <col id="171334" scheme="mun">Planes d&apos;Hostoles, les</col>
+ <col id="171349" scheme="mun">Planoles</col>
+ <col id="259118" scheme="mun">Plans de Sió, els</col>
+ <col id="251689" scheme="mun">Poal, el</col>
+ <col id="251692" scheme="mun">Pobla de Cérvoles, la</col>
+ <col id="081653" scheme="mun">Pobla de Claramunt, la</col>
+ <col id="081666" scheme="mun">Pobla de Lillet, la</col>
+ <col id="431093" scheme="mun">Pobla de Mafumet, la</col>
+ <col id="431107" scheme="mun">Pobla de Massaluca, la</col>
+ <col id="431114" scheme="mun">Pobla de Montornès, la</col>
+ <col id="251713" scheme="mun">Pobla de Segur, la</col>
+ <col id="431129" scheme="mun">Poboleda</col>
+ <col id="081672" scheme="mun">Polinyà</col>
+ <col id="431135" scheme="mun">Pont d&apos;Armentera, el</col>
+ <col id="250306" scheme="mun">Pont de Bar, el</col>
+ <col id="171352" scheme="mun">Pont de Molins</col>
+ <col id="251734" scheme="mun">Pont de Suert, el</col>
+ <col id="081825" scheme="mun">Pont de Vilomara i Rocafort, el</col>
+ <col id="431418" scheme="mun">Pontils</col>
+ <col id="081688" scheme="mun">Pontons</col>
+ <col id="171365" scheme="mun">Pontós</col>
+ <col id="251728" scheme="mun">Ponts</col>
+ <col id="171371" scheme="mun">Porqueres</col>
+ <col id="431140" scheme="mun">Porrera</col>
+ <col id="171404" scheme="mun">Port de la Selva, el</col>
+ <col id="171387" scheme="mun">Portbou</col>
+ <col id="251749" scheme="mun">Portella, la</col>
+ <col id="431153" scheme="mun">Pradell de la Teixeta</col>
+ <col id="431166" scheme="mun">Prades</col>
+ <col id="431172" scheme="mun">Prat de Comte</col>
+ <col id="081691" scheme="mun">Prat de Llobregat, el</col>
+ <col id="431188" scheme="mun">Pratdip</col>
+ <col id="081712" scheme="mun">Prats de Lluçanès</col>
+ <col id="081705" scheme="mun">Prats de Rei, els</col>
+ <col id="251752" scheme="mun">Prats i Sansor</col>
+ <col id="251765" scheme="mun">Preixana</col>
+ <col id="251771" scheme="mun">Preixens</col>
+ <col id="082303" scheme="mun">Premià de Dalt</col>
+ <col id="081727" scheme="mun">Premià de Mar</col>
+ <col id="171390" scheme="mun">Preses, les</col>
+ <col id="251790" scheme="mun">Prullans</col>
+ <col id="081751" scheme="mun">Puig-reig</col>
+ <col id="171411" scheme="mun">Puigcerdà</col>
+ <col id="081748" scheme="mun">Puigdàlber</col>
+ <col id="251804" scheme="mun">Puiggròs</col>
+ <col id="431191" scheme="mun">Puigpelat</col>
+ <col id="251811" scheme="mun">Puigverd d&apos;Agramunt</col>
+ <col id="251826" scheme="mun">Puigverd de Lleida</col>
+ <col id="081764" scheme="mun">Pujalt</col>
+ <col id="081770" scheme="mun">Quar, la</col>
+ <col id="171426" scheme="mun">Quart</col>
+ <col id="170433" scheme="mun">Queralbs</col>
+ <col id="431205" scheme="mun">Querol</col>
+ <col id="171432" scheme="mun">Rabós</col>
+ <col id="081786" scheme="mun">Rajadell</col>
+ <col id="431212" scheme="mun">Rasquera</col>
+ <col id="171447" scheme="mun">Regencós</col>
+ <col id="081799" scheme="mun">Rellinars</col>
+ <col id="431227" scheme="mun">Renau</col>
+ <col id="431233" scheme="mun">Reus</col>
+ <col id="251832" scheme="mun">Rialp</col>
+ <col id="431248" scheme="mun">Riba, la</col>
+ <col id="431251" scheme="mun">Riba-roja d&apos;Ebre</col>
+ <col id="259059" scheme="mun">Ribera d&apos;Ondara</col>
+ <col id="251850" scheme="mun">Ribera d&apos;Urgellet</col>
+ <col id="171450" scheme="mun">Ribes de Freser</col>
+ <col id="171463" scheme="mun">Riells i Viabrea</col>
+ <col id="431264" scheme="mun">Riera de Gaià, la</col>
+ <col id="251863" scheme="mun">Riner</col>
+ <col id="171479" scheme="mun">Ripoll</col>
+ <col id="081803" scheme="mun">Ripollet</col>
+ <col id="259139" scheme="mun">Riu de Cerdanya</col>
+ <col id="171485" scheme="mun">Riudarenes</col>
+ <col id="171498" scheme="mun">Riudaura</col>
+ <col id="431270" scheme="mun">Riudecanyes</col>
+ <col id="431286" scheme="mun">Riudecols</col>
+ <col id="171501" scheme="mun">Riudellots de la Selva</col>
+ <col id="431299" scheme="mun">Riudoms</col>
+ <col id="171518" scheme="mun">Riumors</col>
+ <col id="081810" scheme="mun">Roca del Vallès, la</col>
+ <col id="431303" scheme="mun">Rocafort de Queralt</col>
+ <col id="431310" scheme="mun">Roda de Berà</col>
+ <col id="081831" scheme="mun">Roda de Ter</col>
+ <col id="431325" scheme="mun">Rodonyà</col>
+ <col id="431331" scheme="mun">Roquetes</col>
+ <col id="171523" scheme="mun">Roses</col>
+ <col id="251898" scheme="mun">Rosselló</col>
+ <col id="431346" scheme="mun">Rourell, el</col>
+ <col id="081846" scheme="mun">Rubí</col>
+ <col id="081859" scheme="mun">Rubió</col>
+ <col id="171539" scheme="mun">Rupià</col>
+ <col id="089019" scheme="mun">Rupit i Pruit</col>
+ <col id="081878" scheme="mun">Sabadell</col>
+ <col id="081884" scheme="mun">Sagàs</col>
+ <col id="251902" scheme="mun">Salàs de Pallars</col>
+ <col id="081901" scheme="mun">Saldes</col>
+ <col id="171544" scheme="mun">Sales de Llierca</col>
+ <col id="081918" scheme="mun">Sallent</col>
+ <col id="431359" scheme="mun">Salomó</col>
+ <col id="439057" scheme="mun">Salou</col>
+ <col id="171557" scheme="mun">Salt</col>
+ <col id="251919" scheme="mun">Sanaüja</col>
+ <col id="081944" scheme="mun">Sant Adrià de Besòs</col>
+ <col id="081957" scheme="mun">Sant Agustí de Lluçanès</col>
+ <col id="081960" scheme="mun">Sant Andreu de la Barca</col>
+ <col id="081976" scheme="mun">Sant Andreu de Llavaneres</col>
+ <col id="171576" scheme="mun">Sant Andreu Salou</col>
+ <col id="171833" scheme="mun">Sant Aniol de Finestres</col>
+ <col id="081982" scheme="mun">Sant Antoni de Vilamajor</col>
+ <col id="081995" scheme="mun">Sant Bartomeu del Grau</col>
+ <col id="082009" scheme="mun">Sant Boi de Llobregat</col>
+ <col id="082016" scheme="mun">Sant Boi de Lluçanès</col>
+ <col id="431362" scheme="mun">Sant Carles de la Ràpita</col>
+ <col id="082037" scheme="mun">Sant Cebrià de Vallalta</col>
+ <col id="082021" scheme="mun">Sant Celoni</col>
+ <col id="082042" scheme="mun">Sant Climent de Llobregat</col>
+ <col id="171582" scheme="mun">Sant Climent Sescebes</col>
+ <col id="082055" scheme="mun">Sant Cugat del Vallès</col>
+ <col id="082068" scheme="mun">Sant Cugat Sesgarrigues</col>
+ <col id="251961" scheme="mun">Sant Esteve de la Sarga</col>
+ <col id="082074" scheme="mun">Sant Esteve de Palautordera</col>
+ <col id="082080" scheme="mun">Sant Esteve Sesrovires</col>
+ <col id="171595" scheme="mun">Sant Feliu de Buixalleu</col>
+ <col id="082107" scheme="mun">Sant Feliu de Codines</col>
+ <col id="171609" scheme="mun">Sant Feliu de Guíxols</col>
+ <col id="082114" scheme="mun">Sant Feliu de Llobregat</col>
+ <col id="171616" scheme="mun">Sant Feliu de Pallerols</col>
+ <col id="082129" scheme="mun">Sant Feliu Sasserra</col>
+ <col id="171621" scheme="mun">Sant Ferriol</col>
+ <col id="082093" scheme="mun">Sant Fost de Campsentelles</col>
+ <col id="082135" scheme="mun">Sant Fruitós de Bages</col>
+ <col id="171637" scheme="mun">Sant Gregori</col>
+ <col id="251924" scheme="mun">Sant Guim de Freixenet</col>
+ <col id="251977" scheme="mun">Sant Guim de la Plana</col>
+ <col id="171642" scheme="mun">Sant Hilari Sacalm</col>
+ <col id="082153" scheme="mun">Sant Hipòlit de Voltregà</col>
+ <col id="081939" scheme="mun">Sant Iscle de Vallalta</col>
+ <col id="439023" scheme="mun">Sant Jaume d&apos;Enveja</col>
+ <col id="082166" scheme="mun">Sant Jaume de Frontanyà</col>
+ <col id="171655" scheme="mun">Sant Jaume de Llierca</col>
+ <col id="431378" scheme="mun">Sant Jaume dels Domenys</col>
+ <col id="171674" scheme="mun">Sant Joan de les Abadesses</col>
+ <col id="171680" scheme="mun">Sant Joan de Mollet</col>
+ <col id="082188" scheme="mun">Sant Joan de Vilatorrada</col>
+ <col id="082172" scheme="mun">Sant Joan Despí</col>
+ <col id="171851" scheme="mun">Sant Joan les Fonts</col>
+ <col id="171668" scheme="mun">Sant Jordi Desvalls</col>
+ <col id="089030" scheme="mun">Sant Julià de Cerdanyola</col>
+ <col id="171693" scheme="mun">Sant Julià de Ramis</col>
+ <col id="082205" scheme="mun">Sant Julià de Vilatorta</col>
+ <col id="179032" scheme="mun">Sant Julià del Llor i Bonmatí</col>
+ <col id="082212" scheme="mun">Sant Just Desvern</col>
+ <col id="082227" scheme="mun">Sant Llorenç d&apos;Hortons</col>
+ <col id="171714" scheme="mun">Sant Llorenç de la Muga</col>
+ <col id="251930" scheme="mun">Sant Llorenç de Morunys</col>
+ <col id="082233" scheme="mun">Sant Llorenç Savall</col>
+ <col id="082251" scheme="mun">Sant Martí d&apos;Albars</col>
+ <col id="082248" scheme="mun">Sant Martí de Centelles</col>
+ <col id="171729" scheme="mun">Sant Martí de Llémena</col>
+ <col id="259025" scheme="mun">Sant Martí de Riucorb</col>
+ <col id="082264" scheme="mun">Sant Martí de Tous</col>
+ <col id="082270" scheme="mun">Sant Martí Sarroca</col>
+ <col id="082286" scheme="mun">Sant Martí Sesgueioles</col>
+ <col id="171735" scheme="mun">Sant Martí Vell</col>
+ <col id="082299" scheme="mun">Sant Mateu de Bages</col>
+ <col id="171740" scheme="mun">Sant Miquel de Campmajor</col>
+ <col id="171753" scheme="mun">Sant Miquel de Fluvià</col>
+ <col id="171766" scheme="mun">Sant Mori</col>
+ <col id="171772" scheme="mun">Sant Pau de Segúries</col>
+ <col id="082310" scheme="mun">Sant Pere de Ribes</col>
+ <col id="082325" scheme="mun">Sant Pere de Riudebitlles</col>
+ <col id="082331" scheme="mun">Sant Pere de Torelló</col>
+ <col id="082346" scheme="mun">Sant Pere de Vilamajor</col>
+ <col id="171788" scheme="mun">Sant Pere Pescador</col>
+ <col id="081897" scheme="mun">Sant Pere Sallavinera</col>
+ <col id="082359" scheme="mun">Sant Pol de Mar</col>
+ <col id="082362" scheme="mun">Sant Quintí de Mediona</col>
+ <col id="082378" scheme="mun">Sant Quirze de Besora</col>
+ <col id="082384" scheme="mun">Sant Quirze del Vallès</col>
+ <col id="082397" scheme="mun">Sant Quirze Safaja</col>
+ <col id="251945" scheme="mun">Sant Ramon</col>
+ <col id="082401" scheme="mun">Sant Sadurní d&apos;Anoia</col>
+ <col id="082418" scheme="mun">Sant Sadurní d&apos;Osormort</col>
+ <col id="080983" scheme="mun">Sant Salvador de Guardiola</col>
+ <col id="082628" scheme="mun">Sant Vicenç de Castellet</col>
+ <col id="082649" scheme="mun">Sant Vicenç de Montalt</col>
+ <col id="082652" scheme="mun">Sant Vicenç de Torelló</col>
+ <col id="082634" scheme="mun">Sant Vicenç dels Horts</col>
+ <col id="431384" scheme="mun">Santa Bàrbara</col>
+ <col id="082439" scheme="mun">Santa Cecília de Voltregà</col>
+ <col id="082444" scheme="mun">Santa Coloma de Cervelló</col>
+ <col id="171805" scheme="mun">Santa Coloma de Farners</col>
+ <col id="082457" scheme="mun">Santa Coloma de Gramenet</col>
+ <col id="431397" scheme="mun">Santa Coloma de Queralt</col>
+ <col id="171812" scheme="mun">Santa Cristina d&apos;Aro</col>
+ <col id="082460" scheme="mun">Santa Eugènia de Berga</col>
+ <col id="082476" scheme="mun">Santa Eulàlia de Riuprimer</col>
+ <col id="082482" scheme="mun">Santa Eulàlia de Ronçana</col>
+ <col id="082495" scheme="mun">Santa Fe del Penedès</col>
+ <col id="171827" scheme="mun">Santa Llogaia d&apos;Àlguema</col>
+ <col id="082508" scheme="mun">Santa Margarida de Montbui</col>
+ <col id="082515" scheme="mun">Santa Margarida i els Monjos</col>
+ <col id="082589" scheme="mun">Santa Maria d&apos;Oló</col>
+ <col id="082536" scheme="mun">Santa Maria de Besora</col>
+ <col id="082567" scheme="mun">Santa Maria de Martorelles</col>
+ <col id="082554" scheme="mun">Santa Maria de Merlès</col>
+ <col id="082573" scheme="mun">Santa Maria de Miralles</col>
+ <col id="082592" scheme="mun">Santa Maria de Palautordera</col>
+ <col id="431401" scheme="mun">Santa Oliva</col>
+ <col id="171848" scheme="mun">Santa Pau</col>
+ <col id="082606" scheme="mun">Santa Perpètua de Mogoda</col>
+ <col id="082613" scheme="mun">Santa Susanna</col>
+ <col id="081923" scheme="mun">Santpedor</col>
+ <col id="431423" scheme="mun">Sarral</col>
+ <col id="171864" scheme="mun">Sarrià de Ter</col>
+ <col id="252017" scheme="mun">Sarroca de Bellera</col>
+ <col id="252000" scheme="mun">Sarroca de Lleida</col>
+ <col id="171870" scheme="mun">Saus, Camallera i Llampaies</col>
+ <col id="431439" scheme="mun">Savallà del Comtat</col>
+ <col id="431444" scheme="mun">Secuita, la</col>
+ <col id="171886" scheme="mun">Selva de Mar, la</col>
+ <col id="431457" scheme="mun">Selva del Camp, la</col>
+ <col id="431460" scheme="mun">Senan</col>
+ <col id="430445" scheme="mun">Sénia, la</col>
+ <col id="252022" scheme="mun">Senterada</col>
+ <col id="250352" scheme="mun">Sentiu de Sió, la</col>
+ <col id="082671" scheme="mun">Sentmenat</col>
+ <col id="171903" scheme="mun">Serinyà</col>
+ <col id="252043" scheme="mun">Seròs</col>
+ <col id="171910" scheme="mun">Serra de Daró</col>
+ <col id="171925" scheme="mun">Setcases</col>
+ <col id="252038" scheme="mun">Seu d&apos;Urgell, la</col>
+ <col id="082690" scheme="mun">Seva</col>
+ <col id="252056" scheme="mun">Sidamon</col>
+ <col id="171931" scheme="mun">Sils</col>
+ <col id="082704" scheme="mun">Sitges</col>
+ <col id="170524" scheme="mun">Siurana</col>
+ <col id="082711" scheme="mun">Sobremunt</col>
+ <col id="252069" scheme="mun">Soleràs, el</col>
+ <col id="431476" scheme="mun">Solivella</col>
+ <col id="252075" scheme="mun">Solsona</col>
+ <col id="082726" scheme="mun">Sora</col>
+ <col id="252081" scheme="mun">Soriguera</col>
+ <col id="252094" scheme="mun">Sort</col>
+ <col id="252108" scheme="mun">Soses</col>
+ <col id="082732" scheme="mun">Subirats</col>
+ <col id="252115" scheme="mun">Sudanell</col>
+ <col id="252120" scheme="mun">Sunyer</col>
+ <col id="082747" scheme="mun">Súria</col>
+ <col id="171946" scheme="mun">Susqueda</col>
+ <col id="082763" scheme="mun">Tagamanent</col>
+ <col id="082779" scheme="mun">Talamanca</col>
+ <col id="252154" scheme="mun">Talarn</col>
+ <col id="252167" scheme="mun">Talavera</col>
+ <col id="171959" scheme="mun">Tallada d&apos;Empordà, la</col>
+ <col id="082785" scheme="mun">Taradell</col>
+ <col id="431482" scheme="mun">Tarragona</col>
+ <col id="252173" scheme="mun">Tàrrega</col>
+ <col id="252189" scheme="mun">Tarrés</col>
+ <col id="252192" scheme="mun">Tarroja de Segarra</col>
+ <col id="082750" scheme="mun">Tavèrnoles</col>
+ <col id="082802" scheme="mun">Tavertet</col>
+ <col id="082819" scheme="mun">Teià</col>
+ <col id="252206" scheme="mun">Térmens</col>
+ <col id="171962" scheme="mun">Terrades</col>
+ <col id="082798" scheme="mun">Terrassa</col>
+ <col id="082824" scheme="mun">Tiana</col>
+ <col id="252213" scheme="mun">Tírvia</col>
+ <col id="252228" scheme="mun">Tiurana</col>
+ <col id="431495" scheme="mun">Tivenys</col>
+ <col id="431508" scheme="mun">Tivissa</col>
+ <col id="082830" scheme="mun">Tona</col>
+ <col id="252234" scheme="mun">Torà</col>
+ <col id="082845" scheme="mun">Tordera</col>
+ <col id="082858" scheme="mun">Torelló</col>
+ <col id="252249" scheme="mun">Torms, els</col>
+ <col id="252252" scheme="mun">Tornabous</col>
+ <col id="252271" scheme="mun">Torre de Cabdella, la</col>
+ <col id="082861" scheme="mun">Torre de Claramunt, la</col>
+ <col id="431515" scheme="mun">Torre de Fontaubella, la</col>
+ <col id="431520" scheme="mun">Torre de l&apos;Espanyol, la</col>
+ <col id="252332" scheme="mun">Torre-serona</col>
+ <col id="252265" scheme="mun">Torrebesses</col>
+ <col id="431536" scheme="mun">Torredembarra</col>
+ <col id="252287" scheme="mun">Torrefarrera</col>
+ <col id="259078" scheme="mun">Torrefeta i Florejacs</col>
+ <col id="252304" scheme="mun">Torregrossa</col>
+ <col id="252311" scheme="mun">Torrelameu</col>
+ <col id="082877" scheme="mun">Torrelavit</col>
+ <col id="082883" scheme="mun">Torrelles de Foix</col>
+ <col id="082896" scheme="mun">Torrelles de Llobregat</col>
+ <col id="171978" scheme="mun">Torrent</col>
+ <col id="252326" scheme="mun">Torres de Segre</col>
+ <col id="171984" scheme="mun">Torroella de Fluvià</col>
+ <col id="171997" scheme="mun">Torroella de Montgrí</col>
+ <col id="431541" scheme="mun">Torroja del Priorat</col>
+ <col id="172001" scheme="mun">Tortellà</col>
+ <col id="431554" scheme="mun">Tortosa</col>
+ <col id="172018" scheme="mun">Toses</col>
+ <col id="172023" scheme="mun">Tossa de Mar</col>
+ <col id="252347" scheme="mun">Tremp</col>
+ <col id="172044" scheme="mun">Ullà</col>
+ <col id="082900" scheme="mun">Ullastrell</col>
+ <col id="172057" scheme="mun">Ullastret</col>
+ <col id="431567" scheme="mun">Ulldecona</col>
+ <col id="431573" scheme="mun">Ulldemolins</col>
+ <col id="172039" scheme="mun">Ultramort</col>
+ <col id="172060" scheme="mun">Urús</col>
+ <col id="082917" scheme="mun">Vacarisses</col>
+ <col id="170144" scheme="mun">Vajol, la</col>
+ <col id="172076" scheme="mun">Vall d&apos;en Bas, la</col>
+ <col id="172082" scheme="mun">Vall de Bianya, la</col>
+ <col id="250432" scheme="mun">Vall de Boí, la</col>
+ <col id="259010" scheme="mun">Vall de Cardós</col>
+ <col id="172095" scheme="mun">Vall-llobrega</col>
+ <col id="082922" scheme="mun">Vallbona d&apos;Anoia</col>
+ <col id="252385" scheme="mun">Vallbona de les Monges</col>
+ <col id="082938" scheme="mun">Vallcebre</col>
+ <col id="431589" scheme="mun">Vallclara</col>
+ <col id="252402" scheme="mun">Vallfogona de Balaguer</col>
+ <col id="171707" scheme="mun">Vallfogona de Ripollès</col>
+ <col id="431592" scheme="mun">Vallfogona de Riucorb</col>
+ <col id="082943" scheme="mun">Vallgorguina</col>
+ <col id="082956" scheme="mun">Vallirana</col>
+ <col id="431606" scheme="mun">Vallmoll</col>
+ <col id="082969" scheme="mun">Vallromanes</col>
+ <col id="431613" scheme="mun">Valls</col>
+ <col id="259062" scheme="mun">Valls d&apos;Aguilar, les</col>
+ <col id="252398" scheme="mun">Valls de Valira, les</col>
+ <col id="431628" scheme="mun">Vandellòs i l&apos;Hospitalet de l&apos;Infant</col>
+ <col id="259097" scheme="mun">Vansa i Fórnols, la</col>
+ <col id="082975" scheme="mun">Veciana</col>
+ <col id="431634" scheme="mun">Vendrell, el</col>
+ <col id="172109" scheme="mun">Ventalló</col>
+ <col id="252424" scheme="mun">Verdú</col>
+ <col id="172116" scheme="mun">Verges</col>
+ <col id="431649" scheme="mun">Vespella de Gaià</col>
+ <col id="082981" scheme="mun">Vic</col>
+ <col id="172121" scheme="mun">Vidrà</col>
+ <col id="172137" scheme="mun">Vidreres</col>
+ <col id="252430" scheme="mun">Vielha e Mijaran</col>
+ <col id="431704" scheme="mun">Vila-rodona</col>
+ <col id="172305" scheme="mun">Vila-sacra</col>
+ <col id="252521" scheme="mun">Vila-sana</col>
+ <col id="431711" scheme="mun">Vila-seca</col>
+ <col id="431652" scheme="mun">Vilabella</col>
+ <col id="172142" scheme="mun">Vilabertran</col>
+ <col id="172155" scheme="mun">Vilablareix</col>
+ <col id="082994" scheme="mun">Vilada</col>
+ <col id="172174" scheme="mun">Viladamat</col>
+ <col id="172168" scheme="mun">Viladasens</col>
+ <col id="083015" scheme="mun">Viladecans</col>
+ <col id="083008" scheme="mun">Viladecavalls</col>
+ <col id="172180" scheme="mun">Vilademuls</col>
+ <col id="172207" scheme="mun">Viladrau</col>
+ <col id="172214" scheme="mun">Vilafant</col>
+ <col id="083054" scheme="mun">Vilafranca del Penedès</col>
+ <col id="252445" scheme="mun">Vilagrassa</col>
+ <col id="172235" scheme="mun">Vilajuïga</col>
+ <col id="431750" scheme="mun">Vilalba dels Arcs</col>
+ <col id="083067" scheme="mun">Vilalba Sasserra</col>
+ <col id="252458" scheme="mun">Vilaller</col>
+ <col id="172240" scheme="mun">Vilallonga de Ter</col>
+ <col id="431665" scheme="mun">Vilallonga del Camp</col>
+ <col id="172253" scheme="mun">Vilamacolum</col>
+ <col id="172266" scheme="mun">Vilamalla</col>
+ <col id="172272" scheme="mun">Vilamaniscle</col>
+ <col id="252477" scheme="mun">Vilamòs</col>
+ <col id="172288" scheme="mun">Vilanant</col>
+ <col id="431671" scheme="mun">Vilanova d&apos;Escornalbou</col>
+ <col id="252483" scheme="mun">Vilanova de Bellpuig</col>
+ <col id="252496" scheme="mun">Vilanova de l&apos;Aguda</col>
+ <col id="252542" scheme="mun">Vilanova de la Barca</col>
+ <col id="252509" scheme="mun">Vilanova de Meià</col>
+ <col id="431687" scheme="mun">Vilanova de Prades</col>
+ <col id="083036" scheme="mun">Vilanova de Sau</col>
+ <col id="252516" scheme="mun">Vilanova de Segrià</col>
+ <col id="083020" scheme="mun">Vilanova del Camí</col>
+ <col id="089024" scheme="mun">Vilanova del Vallès</col>
+ <col id="083073" scheme="mun">Vilanova i la Geltrú</col>
+ <col id="431690" scheme="mun">Vilaplana</col>
+ <col id="082140" scheme="mun">Vilassar de Dalt</col>
+ <col id="082191" scheme="mun">Vilassar de Mar</col>
+ <col id="172229" scheme="mun">Vilaür</col>
+ <col id="431726" scheme="mun">Vilaverd</col>
+ <col id="431732" scheme="mun">Vilella Alta, la</col>
+ <col id="431747" scheme="mun">Vilella Baixa, la</col>
+ <col id="172333" scheme="mun">Vilobí d&apos;Onyar</col>
+ <col id="083041" scheme="mun">Vilobí del Penedès</col>
+ <col id="172327" scheme="mun">Vilopriu</col>
+ <col id="252537" scheme="mun">Vilosell, el</col>
+ <col id="431763" scheme="mun">Vimbodí i Poblet</col>
+ <col id="252555" scheme="mun">Vinaixa</col>
+ <col id="431779" scheme="mun">Vinebre</col>
+ <col id="431785" scheme="mun">Vinyols i els Arcs</col>
+ <col id="083089" scheme="mun">Viver i Serrateix</col>
+ <col id="430521" scheme="mun">Xerta</col>
+ <col id="01" scheme="com">Alt Camp</col>
+ <col id="02" scheme="com">Alt Empordà</col>
+ <col id="03" scheme="com">Alt Penedès</col>
+ <col id="04" scheme="com">Alt Urgell</col>
+ <col id="05" scheme="com">Alta Ribagorça</col>
+ <col id="06" scheme="com">Anoia</col>
+ <col id="07" scheme="com">Bages</col>
+ <col id="08" scheme="com">Baix Camp</col>
+ <col id="09" scheme="com">Baix Ebre</col>
+ <col id="10" scheme="com">Baix Empordà</col>
+ <col id="11" scheme="com">Baix Llobregat</col>
+ <col id="12" scheme="com">Baix Penedès</col>
+ <col id="13" scheme="com">Barcelonès</col>
+ <col id="14" scheme="com">Berguedà</col>
+ <col id="15" scheme="com">Cerdanya</col>
+ <col id="16" scheme="com">Conca de Barberà</col>
+ <col id="17" scheme="com">Garraf</col>
+ <col id="18" scheme="com">Garrigues</col>
+ <col id="19" scheme="com">Garrotxa</col>
+ <col id="20" scheme="com">Gironès</col>
+ <col id="21" scheme="com">Maresme</col>
+ <col id="22" scheme="com">Montsià</col>
+ <col id="23" scheme="com">Noguera</col>
+ <col id="24" scheme="com">Osona</col>
+ <col id="25" scheme="com">Pallars Jussà</col>
+ <col id="26" scheme="com">Pallars Sobirà</col>
+ <col id="27" scheme="com">Pla d&apos;Urgell</col>
+ <col id="28" scheme="com">Pla de l&apos;Estany</col>
+ <col id="29" scheme="com">Priorat</col>
+ <col id="30" scheme="com">Ribera d&apos;Ebre</col>
+ <col id="31" scheme="com">Ripollès</col>
+ <col id="32" scheme="com">Segarra</col>
+ <col id="33" scheme="com">Segrià</col>
+ <col id="34" scheme="com">Selva</col>
+ <col id="35" scheme="com">Solsonès</col>
+ <col id="36" scheme="com">Tarragonès</col>
+ <col id="37" scheme="com">Terra Alta</col>
+ <col id="38" scheme="com">Urgell</col>
+ <col id="39" scheme="com">Val d&apos;Aran</col>
+ <col id="40" scheme="com">Vallès Occidental</col>
+ <col id="41" scheme="com">Vallès Oriental</col>
+ <col id="09" scheme="ca">Catalunya</col>
+</cols>

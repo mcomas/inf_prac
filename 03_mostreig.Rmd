@@ -11,31 +11,6 @@ output:
 # Mostreig per Aglomerats {#ma}
 # Activitats {#activitats}
 
-Per mostrar com funcionen cadascun dels mètodes de mostreig utilitzarem una població fictície. LA construirem nosaltres mateixos mitjançant variables aleatòries.
+Per mostrar com funcionen cadascun dels mètodes de mostreig utilitzarem una població fictícia. La construirem nosaltres mateixos mitjançant variables aleatòries.
 
-Anem a construir la nostre població
 
-```{r}
-library(XML)
-xml.url = 'http://api.idescat.cat/emex/v1/dades.xml'
-pobl = xmlTreeParse(xml.url)
-root = xmlChildren(xmlRoot(pobl))
-cols = root[['cols']]
-ids = sapply(1:length(cols), function(i) xmlAttrs(cols[[i]])[['id']] )
-scheme = sapply(1:length(cols), function(i) xmlAttrs(cols[[i]])[['scheme']] )
-nom = sapply(1:length(cols), function(i) xmlValue(cols[[i]]))
-```
-
-Població
-
-```{r}
-#   NOMÉS EXECUTAR UN COP. Es fa una descarga d'un fitxer gran
-#   id.info = lapply(ids, function(id){
-#     xml.url = sprintf('http://api.idescat.cat/emex/v1/dades.xml?id=%s', id)
-#     xmlTreeParse(xml.url)
-#   })
-#   save(id.info, file='id_info.RData')
-
-load('id_info.RData')
-  
-```

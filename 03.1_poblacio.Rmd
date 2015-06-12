@@ -1,0 +1,53 @@
+---
+title: "03.1_poblacio"
+output: html_document
+---
+
+Anem a construir la nostre població
+
+```{r}
+library(XML)
+library(dplyr)
+library(stringr)
+xml.url = 'http://api.idescat.cat/emex/v1/dades.xml'
+pobl = xmlTreeParse(xml.url)
+root = xmlChildren(xmlRoot(pobl))
+cols = root[['cols']]
+ids = sapply(1:length(cols), function(i) xmlAttrs(cols[[i]])[['id']] )
+scheme = sapply(1:length(cols), function(i) xmlAttrs(cols[[i]])[['scheme']] )
+nom = sapply(1:length(cols), function(i) xmlValue(cols[[i]]))
+```
+
+Població
+
+```{r, eval=FALSE}
+
+#   NOMÉS EXECUTAR UN COP. Es fa una descarga d'un fitxer gran
+id.info = lapply(ids, function(id){
+  xml.url = sprintf('http://api.idescat.cat/emex/v1/dades.xml?id=%s', id)
+  xmlParse(xml.url)
+})
+emex = lapply(id.info[scheme == 'mun'], function(id){
+  # S'agafa el nom dels municipi i la comarca
+  df = data.frame(lapply(getNodeSet(id, "/fitxes/cols/col/child::text()"), function(i) xmlValue(i)))
+  names(df) = c('mun', 'com', 'ca')
+  df$area  = xmlValue( getNodeSet(id, "/fitxes/gg/g[@id='g173']/tt/t[@id='t176']/ff/f[@id='f271']/v/child::text()")[[1]] )
+  df$pobl  = xmlValue( getNodeSet(id, "/fitxes/gg/g[@id='g168']/tt/t[@id='t195']/ff/f[@id='f321']/v/child::text()")[[1]] )
+  df$homes = xmlValue( getNodeSet(id, "/fitxes/gg/g[@id='g168']/tt/t[@id='t195']/ff/f[@id='f318']/v/child::text()")[[1]] )
+  df$dones = xmlValue( getNodeSet(id, "/fitxes/gg/g[@id='g168']/tt/t[@id='t195']/ff/f[@id='f320']/v/child::text()")[[1]] )
+  df
+}) %>% bind_rows %>% data.frame
+save(emex, file='emex.RData')
+```
+
+
+```{r}
+library()
+load('emex.RData')
+
+ee = emex %>% mutate(
+  area = as.numeric(str_split_fixed(area, ',', n = 3)[,1]),
+  pobl = as.numeric(str_split_fixed(pobl, ',', n = 3)[,1]),
+  homes = as.numeric(str_split_fixed(homes, ',', n = 3)[,1]),
+  dones = as.numeric(str_split_fixed(dones, ',', n = 3)[,1]))
+```

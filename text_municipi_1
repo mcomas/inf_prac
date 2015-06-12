@@ -1,0 +1,1350 @@
+<?xml version="1.0" encoding="utf-8"?>
+<fitxes version="1.00" lang="ca" o="dades" p="id=250019">
+  <cols>
+    <col id="250019" scheme="mun">Abella de la Conca</col>
+    <col id="25" scheme="com">Pallars Jussà</col>
+    <col id="09" scheme="ca">Catalunya</col>
+  </cols>
+  <gg>
+    <g id="g173">
+      <c>Territori</c>
+      <tt>
+        <t id="t176">
+          <c>Indicadors geogràfics</c>
+          <ff>
+            <f id="f271">
+              <c>Superfície</c>
+              <calt>Superfície</calt>
+              <v>78.3,1343.1,32108.0</v>
+              <u>km2</u>
+              <r>2014</r>
+              <updated>2014-12-23T11:00:00+00:00</updated>
+            </f>
+            <f id="f258">
+              <c>Altitud</c>
+              <calt>Altitud</calt>
+              <v>956,_,_</v>
+              <u>m</u>
+              <r>2013</r>
+              <updated>2014-02-17T11:00:00+00:00</updated>
+            </f>
+            <f id="f328">
+              <c>Longitud</c>
+              <calt>Longitud</calt>
+              <v>1.092892,_,_</v>
+              <u>º</u>
+              <r>2013</r>
+              <updated>2014-02-17T11:00:00+00:00</updated>
+            </f>
+            <f id="f329">
+              <c>Latitud</c>
+              <calt>Latitud</calt>
+              <v>42.162392,_,_</v>
+              <u>º</u>
+              <r>2013</r>
+              <updated>2014-02-17T11:00:00+00:00</updated>
+            </f>
+            <f id="f259">
+              <c>Coordenades UTM x</c>
+              <calt>Coordenades UTM x</calt>
+              <v>342450,_,_</v>
+              <u>m</u>
+              <r>2013</r>
+              <updated>2014-02-17T11:00:00+00:00</updated>
+            </f>
+            <f id="f260">
+              <c>Coordenades UTM y</c>
+              <calt>Coordenades UTM y</calt>
+              <v>4669650,_,_</v>
+              <u>m</u>
+              <r>2013</r>
+              <updated>2014-02-17T11:00:00+00:00</updated>
+            </f>
+          </ff>
+          <l>http://www.idescat.cat/territ/BasicTerr?TC=6&amp;V0=1&amp;V1=25001&amp;MN=1&amp;&amp;V3=215&amp;PARENT=91&amp;CTX=B#FROM</l>
+        </t>
+      </tt>
+    </g>
+    <g id="g168">
+      <c>Població</c>
+      <tt>
+        <t id="t192">
+          <c>Densitat de població</c>
+          <calt>Densitat</calt>
+          <ff>
+            <f id="f261">
+              <c>Superfície</c>
+              <calt>Superfície</calt>
+              <v>78.3,1343.1,32108.0</v>
+              <u>km2</u>
+            </f>
+            <f id="f262">
+              <c>Densitat</c>
+              <calt>Densitat</calt>
+              <v>2.2,10.1,234.2</v>
+              <u>hab./km2</u>
+            </f>
+          </ff>
+          <r>2014</r>
+          <updated>2014-12-23T11:00:00+00:00</updated>
+          <l>http://www.idescat.cat/territ/BasicTerr?TC=5&amp;V0=1&amp;V1=25001&amp;V3=215&amp;V4=396&amp;ALLINFO=TRUE&amp;PARENT=91&amp;CTX=B</l>
+        </t>
+        <t id="t195">
+          <c>Població. Per sexe</c>
+          <calt>Sexe</calt>
+          <ff>
+            <f id="f318">
+              <c>Homes</c>
+              <calt>Homes</calt>
+              <v>94,6866,3701740</v>
+            </f>
+            <f id="f320">
+              <c>Dones</c>
+              <calt>Dones</calt>
+              <v>76,6664,3817163</v>
+            </f>
+            <f id="f321">
+              <c>Total</c>
+              <calt>Població</calt>
+              <v>170,13530,7518903</v>
+            </f>
+          </ff>
+          <r>2014</r>
+          <s>Idescat. Padró municipal d'habitants.</s>
+          <updated>2014-12-23T11:00:00+00:00</updated>
+          <l>http://www.idescat.cat/territ/BasicTerr?TC=5&amp;V0=1&amp;V1=25001&amp;V3=669&amp;V4=446&amp;ALLINFO=TRUE&amp;PARENT=1&amp;CTX=B</l>
+        </t>
+        <t id="t25">
+          <c>Població. Per grups d'edat</c>
+          <calt>Grups d'edat</calt>
+          <ff>
+            <f id="f167">
+              <c>De 0 a 14 anys</c>
+              <calt>Població de 0 a 14 anys</calt>
+              <v>17,1682,1185386</v>
+            </f>
+            <f id="f27">
+              <c>De 15 a 64 anys</c>
+              <calt>Població de 15 a 64 anys</calt>
+              <v>107,8504,4996234</v>
+            </f>
+            <f id="f28">
+              <c>De 65 a 84 anys</c>
+              <calt>Població de 65 a 84 anys</calt>
+              <v>41,2592,1133324</v>
+            </f>
+            <f id="f29">
+              <c>De 85 anys i més</c>
+              <calt>Població de 85 anys i més</calt>
+              <v>5,752,203959</v>
+            </f>
+            <f id="f171">
+              <c>Total</c>
+              <calt>Població</calt>
+              <v>170,13530,7518903</v>
+            </f>
+          </ff>
+          <r>2014</r>
+          <s>Idescat. Padró municipal d'habitants.</s>
+          <updated>2015-02-19T11:00:00+00:00</updated>
+          <l>http://www.idescat.cat/territ/BasicTerr?TC=5&amp;V0=1&amp;V1=25001&amp;V3=669&amp;V4=498&amp;ALLINFO=TRUE&amp;PARENT=1&amp;CTX=B</l>
+        </t>
+        <t id="t31">
+          <c>Població. Per grups d'edat. Homes</c>
+          <calt>Grups d'edat. Homes</calt>
+          <ff>
+            <f id="f176">
+              <c>De 0 a 14 anys</c>
+              <calt>Homes de 0 a 14 anys</calt>
+              <v>8,833,609792</v>
+            </f>
+            <f id="f33">
+              <c>De 15 a 64 anys</c>
+              <calt>Homes de 15 a 64 anys</calt>
+              <v>60,4561,2523167</v>
+            </f>
+            <f id="f34">
+              <c>De 65 a 84 anys</c>
+              <calt>Homes de 65 a 84 anys</calt>
+              <v>23,1168,504396</v>
+            </f>
+            <f id="f35">
+              <c>De 85 anys i més</c>
+              <calt>Homes de 85 anys i més</calt>
+              <v>3,304,64385</v>
+            </f>
+            <f id="f36">
+              <c>Total</c>
+              <calt>Homes</calt>
+              <v>94,6866,3701740</v>
+            </f>
+          </ff>
+          <r>2014</r>
+          <s>Idescat. Padró municipal d'habitants.</s>
+          <updated>2015-02-19T11:00:00+00:00</updated>
+          <l>http://www.idescat.cat/territ/BasicTerr?TC=5&amp;V0=1&amp;V1=25001&amp;V3=669&amp;V4=498&amp;ALLINFO=TRUE&amp;PARENT=1&amp;CTX=B</l>
+        </t>
+        <t id="t37">
+          <c>Població. Per grups d'edat. Dones</c>
+          <calt>Grups d'edat. Dones</calt>
+          <ff>
+            <f id="f38">
+              <c>De 0 a 14 anys</c>
+              <calt>Dones de 0 a 14 anys</calt>
+              <v>9,849,575594</v>
+            </f>
+            <f id="f39">
+              <c>De 15 a 64 anys</c>
+              <calt>Dones de 15 a 64 anys</calt>
+              <v>47,3943,2473067</v>
+            </f>
+            <f id="f40">
+              <c>De 65 a 84 anys</c>
+              <calt>Dones de 65 a 84 anys</calt>
+              <v>18,1424,628928</v>
+            </f>
+            <f id="f41">
+              <c>De 85 anys i més</c>
+              <calt>Dones de 85 anys i més</calt>
+              <v>2,448,139574</v>
+            </f>
+            <f id="f42">
+              <c>Total</c>
+              <calt>Dones</calt>
+              <v>76,6664,3817163</v>
+            </f>
+          </ff>
+          <r>2014</r>
+          <s>Idescat. Padró municipal d'habitants.</s>
+          <updated>2015-02-19T11:00:00+00:00</updated>
+          <l>http://www.idescat.cat/territ/BasicTerr?TC=5&amp;V0=1&amp;V1=25001&amp;V3=669&amp;V4=498&amp;ALLINFO=TRUE&amp;PARENT=1&amp;CTX=B</l>
+        </t>
+        <t id="t68">
+          <c>Població. Per lloc de naixement</c>
+          <calt>Lloc de naixement</calt>
+          <ff>
+            <f id="f69">
+              <c>Catalunya</c>
+              <calt>Població nascuda a Catalunya</calt>
+              <v>149,10047,4835032</v>
+            </f>
+            <f id="f72">
+              <c>Resta d'Espanya</c>
+              <calt>Població nascuda a la resta d'Espanya</calt>
+              <v>9,1403,1393243</v>
+            </f>
+            <f id="f73">
+              <c>Estranger</c>
+              <calt>Població nascuda a l'estranger</calt>
+              <v>12,2080,1290628</v>
+            </f>
+            <f id="f74">
+              <c>Total</c>
+              <calt>Població</calt>
+              <v>170,13530,7518903</v>
+            </f>
+          </ff>
+          <r>2014</r>
+          <s>Idescat. Padró municipal d'habitants.</s>
+          <updated>2015-02-19T11:00:00+00:00</updated>
+          <l>http://www.idescat.cat/territ/BasicTerr?TC=5&amp;V0=1&amp;V1=25001&amp;V3=673&amp;V4=674&amp;ALLINFO=TRUE&amp;PARENT=1&amp;CTX=B</l>
+        </t>
+        <t id="t75">
+          <c>Població. Per nacionalitat</c>
+          <calt>Nacionalitat</calt>
+          <ff>
+            <f id="f183">
+              <c>Espanyola</c>
+              <calt>Població amb nacionalitat espanyola</calt>
+              <v>159,11695,6429689</v>
+            </f>
+            <f id="f184">
+              <c>Estrangera</c>
+              <calt>Població amb nacionalitat estrangera</calt>
+              <v>11,1835,1089214</v>
+            </f>
+            <f id="f263">
+              <c>Total</c>
+              <calt>Població</calt>
+              <v>170,13530,7518903</v>
+            </f>
+          </ff>
+          <r>2014</r>
+          <s>Idescat. Padró municipal d'habitants.</s>
+          <updated>2015-02-19T11:00:00+00:00</updated>
+          <l>http://www.idescat.cat/territ/BasicTerr?TC=5&amp;V0=1&amp;V1=25001&amp;V3=864&amp;V4=680&amp;ALLINFO=TRUE&amp;PARENT=1&amp;CTX=B</l>
+        </t>
+        <t id="t78">
+          <c>Població. Per nacionalitat. Homes</c>
+          <calt>Nacionalitat. Homes</calt>
+          <ff>
+            <f id="f178">
+              <c>Espanyola</c>
+              <calt>Homes amb nacionalitat espanyola</calt>
+              <v>90,5896,3131541</v>
+            </f>
+            <f id="f77">
+              <c>Estrangera</c>
+              <calt>Homes amb nacionalitat estrangera</calt>
+              <v>4,970,570199</v>
+            </f>
+            <f id="f264">
+              <c>Total</c>
+              <calt>Homes</calt>
+              <v>94,6866,3701740</v>
+            </f>
+          </ff>
+          <r>2014</r>
+          <s>Idescat. Padró municipal d'habitants.</s>
+          <updated>2015-02-19T11:00:00+00:00</updated>
+          <l>http://www.idescat.cat/territ/BasicTerr?TC=5&amp;V0=1&amp;V1=25001&amp;V3=864&amp;V4=680&amp;ALLINFO=TRUE&amp;PARENT=1&amp;CTX=B</l>
+        </t>
+        <t id="t81">
+          <c>Població. Per nacionalitat. Dones</c>
+          <calt>Nacionalitat. Dones</calt>
+          <ff>
+            <f id="f82">
+              <c>Espanyola</c>
+              <calt>Dones amb nacionalitat espanyola</calt>
+              <v>69,5799,3298148</v>
+            </f>
+            <f id="f83">
+              <c>Estrangera</c>
+              <calt>Dones amb nacionalitat estrangera</calt>
+              <v>7,865,519015</v>
+            </f>
+            <f id="f265">
+              <c>Total</c>
+              <calt>Dones</calt>
+              <v>76,6664,3817163</v>
+            </f>
+          </ff>
+          <r>2014</r>
+          <s>Idescat. Padró municipal d'habitants.</s>
+          <updated>2015-02-19T11:00:00+00:00</updated>
+          <l>http://www.idescat.cat/territ/BasicTerr?TC=5&amp;V0=1&amp;V1=25001&amp;V3=864&amp;V4=680&amp;ALLINFO=TRUE&amp;PARENT=1&amp;CTX=B</l>
+        </t>
+        <t id="t197">
+          <c>Població resident a l'estranger a 1 de gener. Per sexe</c>
+          <calt>Població resident a l'estranger</calt>
+          <ff>
+            <f id="f334">
+              <c>Homes</c>
+              <calt>Homes residents a l'estranger</calt>
+              <v>27,484,120829</v>
+            </f>
+            <f id="f335">
+              <c>Dones</c>
+              <calt>Dones residents a l'estranger</calt>
+              <v>29,530,121241</v>
+            </f>
+            <f id="f336">
+              <c>Total</c>
+              <calt>Població resident a l'estranger</calt>
+              <v>56,1014,242070</v>
+            </f>
+          </ff>
+          <r>2015</r>
+          <s>Idescat. Padró d'habitants residents a l'estranger.</s>
+          <updated>2015-04-30T10:00:00+00:00</updated>
+          <l>http://www.idescat.cat/territ/BasicTerr?TC=5&amp;V0=1&amp;V1=25001&amp;V3=3696&amp;V4=3697&amp;ALLINFO=TRUE&amp;PARENT=1&amp;CTX=B</l>
+        </t>
+        <t id="t164">
+          <c>Naixements. Per sexe</c>
+          <calt>Naixements</calt>
+          <ff>
+            <f id="f185">
+              <c>Nens</c>
+              <calt>Naixements. Nens</calt>
+              <v>0,48,36887</v>
+            </f>
+            <f id="f186">
+              <c>Nenes</c>
+              <calt>Naixements. Nenes</calt>
+              <v>0,46,34704</v>
+            </f>
+            <f id="f187">
+              <c>Total</c>
+              <calt>Naixements</calt>
+              <v>0,94,71591</v>
+            </f>
+          </ff>
+          <r>2013</r>
+          <s>Idescat, a partir del Moviment Natural de la Població de l'INE.</s>
+          <updated>2014-10-29T11:00:00+00:00</updated>
+          <l>http://www.idescat.cat/territ/BasicTerr?TC=5&amp;V0=1&amp;V1=25001&amp;V3=35&amp;V4=364&amp;ALLINFO=TRUE&amp;PARENT=1&amp;CTX=B</l>
+        </t>
+        <t id="t165">
+          <c>Defuncions. Per sexe</c>
+          <calt>Defuncions</calt>
+          <ff>
+            <f id="f181">
+              <c>Homes</c>
+              <calt>Defuncions. Homes</calt>
+              <v>0,87,30872</v>
+            </f>
+            <f id="f182">
+              <c>Dones</c>
+              <calt>Defuncions. Dones</calt>
+              <v>1,71,29935</v>
+            </f>
+            <f id="f188">
+              <c>Total</c>
+              <calt>Defuncions</calt>
+              <v>1,158,60807</v>
+            </f>
+          </ff>
+          <r>2013</r>
+          <s>Idescat, a partir del Moviment Natural de la Població de l'INE.</s>
+          <updated>2015-03-30T10:00:00+00:00</updated>
+          <l>http://www.idescat.cat/territ/BasicTerr?TC=5&amp;V0=1&amp;V1=25001&amp;V3=44&amp;V4=365&amp;ALLINFO=TRUE&amp;PARENT=1&amp;CTX=B</l>
+        </t>
+        <t id="t166">
+          <c>Matrimonis</c>
+          <calt>Matrimonis</calt>
+          <ff>
+            <f id="f179">
+              <c>Total</c>
+              <calt>Matrimonis</calt>
+              <v>2,36,26044</v>
+            </f>
+          </ff>
+          <r>2013</r>
+          <s>Idescat, a partir del Moviment Natural de la Població de l'INE.</s>
+          <updated>2014-11-20T11:00:00+00:00</updated>
+          <l>http://www.idescat.cat/territ/BasicTerr?TC=5&amp;V0=1&amp;V3=923&amp;V4=79&amp;ALLINFO=TRUE&amp;PARENT=1&amp;CTX=B&amp;ANYS=2011&amp;V1=25001&amp;VOK=Confirmar</l>
+        </t>
+        <t id="t196">
+          <c>Migracions internes. Saldos destinació-procedència</c>
+          <calt>Migracions internes</calt>
+          <ff>
+            <f id="f322">
+              <c>Saldo amb Catalunya</c>
+              <calt>Migracions (saldo) amb Catalunya</calt>
+              <v>6,-11,_</v>
+            </f>
+            <f id="f323">
+              <c>Saldo amb Espanya</c>
+              <calt>Migracions (saldo) amb Espanya</calt>
+              <v>0,30,-697</v>
+            </f>
+            <f id="f324">
+              <c>Saldo migratori intern</c>
+              <calt>Saldo migratori intern</calt>
+              <v>6,19,-697</v>
+            </f>
+          </ff>
+          <r>2013</r>
+          <updated>2014-09-29T10:00:00+00:00</updated>
+          <l>http://www.idescat.cat/territ/BasicTerr?TC=5&amp;V0=1&amp;V1=25001&amp;V3=5483&amp;V4=223&amp;ALLINFO=TRUE&amp;PARENT=1&amp;CTX=B</l>
+        </t>
+        <t id="t208">
+          <c>Migracions externes</c>
+          <calt>Migracions externes</calt>
+          <ff>
+            <f id="f372">
+              <c>Immigracions</c>
+              <calt>Immigracions externes</calt>
+              <v>0,62,85908</v>
+            </f>
+            <f id="f373">
+              <c>Emigracions</c>
+              <calt>Emigracions externes</calt>
+              <v>0,295,106657</v>
+            </f>
+            <f id="f374">
+              <c>Saldo migratori extern</c>
+              <calt>Saldo migratori extern</calt>
+              <v>0,-233,-20749</v>
+            </f>
+          </ff>
+          <r>2013</r>
+          <s>Idescat, a partir de l'Estadística de variacions residencials de l'INE.</s>
+          <updated>2014-09-29T10:00:00+00:00</updated>
+          <l>http://www.idescat.cat/territ/BasicTerr?TC=5&amp;V0=1&amp;V3=5482&amp;V4=5489&amp;ALLINFO=TRUE&amp;PARENT=1&amp;CTX=B&amp;ANYS=2013&amp;V1=25001&amp;VOK=Confirmar</l>
+        </t>
+        <t id="t194">
+          <c>Immigracions externes. Per lloc de procedència</c>
+          <calt>Immigracions externes</calt>
+          <ff>
+            <f id="f314">
+              <c>UE</c>
+              <calt>Immigracions de la UE</calt>
+              <v>0,24,16372</v>
+            </f>
+            <f id="f316">
+              <c>Resta del món</c>
+              <calt>Immigracions de la resta del món</calt>
+              <v>0,38,69536</v>
+            </f>
+            <f id="f317">
+              <c>Total</c>
+              <calt>Immigracions externes</calt>
+              <v>0,62,85908</v>
+            </f>
+          </ff>
+          <r>2013</r>
+          <updated>2014-09-29T10:00:00+00:00</updated>
+          <l>http://www.idescat.cat/territ/BasicTerr?TC=5&amp;V0=1&amp;V1=25001&amp;V3=5524&amp;V4=487&amp;ALLINFO=TRUE&amp;PARENT=1&amp;CTX=B</l>
+        </t>
+        <t id="t202">
+          <c>Creixement intercensal 2001-2011 de la població</c>
+          <calt>Creixement intercensal de la població</calt>
+          <ff>
+            <f id="f359">
+              <c>Creixement total</c>
+              <calt>Creixement total intercensal</calt>
+              <v>-7,1689,1176733</v>
+            </f>
+            <f id="f360">
+              <c>Creixement total (mitjana anual)</c>
+              <calt>Taxa de creixement total intercensal (mitjana anual)</calt>
+              <v>-3.87,13.09,16.98</v>
+              <u>taxa per 1.000 habitants</u>
+            </f>
+            <f id="f361">
+              <c>Creixement natural (mitjana anual)</c>
+              <calt>Taxa de creixement natural intercensal (mitjana anual)</calt>
+              <v>-7.97,-4.92,3.04</v>
+              <u>taxa per 1.000 habitants</u>
+            </f>
+            <f id="f362">
+              <c>Creixement migratori (mitjana anual)</c>
+              <calt>Taxa de creixement migratori intercensal (mitjana anual)</calt>
+              <v>4.11,18.02,13.94</v>
+              <u>taxa per 1.000 habitants</u>
+            </f>
+          </ff>
+          <r>2011</r>
+          <updated>2012-12-14T11:00:00+00:00</updated>
+          <l>http://www.idescat.cat/territ/BasicTerr?TC=6&amp;V0=1&amp;V3=97&amp;ALLINFO=TRUE&amp;PARENT=1&amp;CTX=B&amp;V1=25001&amp;VOK=Confirmar</l>
+        </t>
+      </tt>
+    </g>
+    <g id="g171">
+      <c>Habitatges i llars</c>
+      <tt>
+        <t id="t116">
+          <c>Habitatges familiars. Per tipus</c>
+          <calt>Tipus d'habitatges</calt>
+          <ff>
+            <f id="f250">
+              <c>Principals</c>
+              <calt>Habitatges familiars principals</calt>
+              <v>62,5639,2944944</v>
+            </f>
+            <f id="f119">
+              <c>Secundaris</c>
+              <calt>Habitatges familiars secundaris</calt>
+              <v>28,3786,470081</v>
+            </f>
+            <f id="f120">
+              <c>Buits</c>
+              <calt>Habitatges familiars buits</calt>
+              <v>_,1541,448356</v>
+            </f>
+            <f id="f122">
+              <c>Total</c>
+              <calt>Habitatges familiars</calt>
+              <v>90,10966,3863381</v>
+            </f>
+          </ff>
+          <r>2011</r>
+          <s>Idescat, a partir del Cens de població i habitatges de l'INE.</s>
+          <updated>2013-12-19T11:00:00+00:00</updated>
+          <l>http://www.idescat.cat/territ/BasicTerr?TC=5&amp;V0=1&amp;V1=25001&amp;V3=1035&amp;V4=30&amp;ALLINFO=TRUE&amp;PARENT=25&amp;CTX=B</l>
+        </t>
+      </tt>
+    </g>
+    <g id="g163">
+      <c>Macromagnituds i impostos</c>
+      <tt>
+        <t id="t179">
+          <c>Impost de béns immobles urbans (IBI)</c>
+          <calt>Impost de béns immobles urbans</calt>
+          <ff>
+            <f id="f198">
+              <c>Nombre de rebuts</c>
+              <calt>IBI. Rebuts</calt>
+              <v>194,17103,5679671</v>
+            </f>
+            <f id="f199">
+              <c>Base imposable per rebut</c>
+              <calt>IBI. Base imposable per rebut</calt>
+              <v>5443.3,47832.7,63094.1</v>
+              <u>euros</u>
+            </f>
+            <f id="f200">
+              <c>Quota íntegra per rebut</c>
+              <calt>IBI. Quota íntegra per rebut</calt>
+              <v>29.9,214.8,448.2</v>
+              <u>euros</u>
+            </f>
+          </ff>
+          <r>2012</r>
+          <s>Idescat, a partir de les dades de la Dirección General del Catastro.</s>
+          <updated>2014-06-16T10:00:00+00:00</updated>
+          <l>http://www.idescat.cat/territ/BasicTerr?TC=5&amp;V0=1&amp;V1=25001&amp;V3=172&amp;V4=173&amp;ALLINFO=TRUE&amp;PARENT=100&amp;CTX=B</l>
+        </t>
+        <t id="t167">
+          <c>Impost sobre el patrimoni de les persones físiques (IPPF)</c>
+          <calt>Impost sobre el patrimoni de les persones físiques</calt>
+          <ff>
+            <f id="f180">
+              <c>Patrimoni total per declarant</c>
+              <calt>IPPF. Patrimoni total per declarant</calt>
+              <v>_,349777,516035</v>
+              <u>euros</u>
+            </f>
+            <f id="f202">
+              <c>Actius reals</c>
+              <calt>IPPF. Declaració d'actius reals</calt>
+              <v>_,38.5,37.4</v>
+              <u>%</u>
+            </f>
+            <f id="f203">
+              <c>Actius financers</c>
+              <calt>IPPF. Declaració d'actius financers</calt>
+              <v>_,61.5,62.6</v>
+              <u>%</u>
+            </f>
+          </ff>
+          <r>2007</r>
+          <s>Idescat, a partir de les dades de l'Agència Estatal d'Administració Tributària.</s>
+          <updated>2010-06-11T10:00:00+00:00</updated>
+          <l>http://www.idescat.cat/territ/BasicTerr?TC=5&amp;V0=1&amp;V1=25001&amp;V3=1040&amp;V4=382&amp;ALLINFO=TRUE&amp;PARENT=100&amp;CTX=B</l>
+        </t>
+      </tt>
+    </g>
+    <g id="g170">
+      <c>Sectors econòmics</c>
+      <tt>
+        <t id="t132">
+          <c>Superfície agrícola utilitzada (SAU)</c>
+          <calt>Superfície agrícola utilitzada</calt>
+          <ff>
+            <f id="f133">
+              <c>Terres llaurades</c>
+              <calt>Superfície de terres llaurades</calt>
+              <v>412,16919,792425</v>
+            </f>
+            <f id="f134">
+              <c>Pastures permanents</c>
+              <calt>Superfície de pastures permanents</calt>
+              <v>1048,35219,355107</v>
+            </f>
+            <f id="f345">
+              <c>Total</c>
+              <calt>Superfície agrícola utilitzada</calt>
+              <v>1460,52138,1147532</v>
+            </f>
+          </ff>
+          <r>2009</r>
+          <s>Idescat, a partir de les dades del Cens agrari de l'INE.</s>
+          <u>hectàrees</u>
+          <updated>2012-04-04T10:00:00+00:00</updated>
+          <l>http://www.idescat.cat/territ/BasicTerr?TC=5&amp;V0=1&amp;V3=5060&amp;V4=5082&amp;ALLINFO=TRUE&amp;PARENT=100&amp;CTX=B&amp;V1=25001&amp;VOK=Confirmar</l>
+        </t>
+        <t id="t199">
+          <c>Terres llaurades. Per tipus de conreu</c>
+          <calt>Terres llaurades</calt>
+          <ff>
+            <f id="f346">
+              <c>Herbacis</c>
+              <calt>Conreus d'herbacis</calt>
+              <v>226,14140,511150</v>
+            </f>
+            <f id="f347">
+              <c>Fruiters</c>
+              <calt>Conreus de fruiters</calt>
+              <v>169,1749,110819</v>
+            </f>
+            <f id="f348">
+              <c>Olivera</c>
+              <calt>Conreus d'olivera</calt>
+              <v>6,609,101236</v>
+            </f>
+            <f id="f349">
+              <c>Vinya</c>
+              <calt>Conreus de vinya</calt>
+              <v>1,400,61391</v>
+            </f>
+            <f id="f350">
+              <c>Altres</c>
+              <calt>Altres conreus</calt>
+              <v>11,22,7829</v>
+            </f>
+            <f id="f351">
+              <c>Total</c>
+              <calt>Terres llaurades</calt>
+              <v>412,16919,792425</v>
+            </f>
+          </ff>
+          <r>2009</r>
+          <s>Idescat, a partir de les dades del Cens agrari de l'INE.</s>
+          <u>hectàrees</u>
+          <updated>2012-03-20T11:00:00+00:00</updated>
+          <l>http://www.idescat.cat/territ/BasicTerr?TC=5&amp;V0=1&amp;V1=25001&amp;V3=5060&amp;V4=5084&amp;ALLINFO=TRUE&amp;PARENT=100&amp;CTX=B</l>
+        </t>
+        <t id="t200">
+          <c>Explotacions agràries. Segons tinença de terres</c>
+          <calt>Tinença de terres</calt>
+          <ff>
+            <f id="f352">
+              <c>Sense terres</c>
+              <calt>Explotacions sense terres</calt>
+              <v>3,19,1519</v>
+            </f>
+            <f id="f353">
+              <c>Amb terres</c>
+              <calt>Explotacions amb terres</calt>
+              <v>27,870,59320</v>
+            </f>
+            <f id="f356">
+              <c>Total</c>
+              <calt>Explotacions agràries amb i sense terres</calt>
+              <v>30,889,60839</v>
+            </f>
+          </ff>
+          <r>2009</r>
+          <s>Idescat, a partir de les dades del Cens agrari de l'INE.</s>
+          <updated>2012-04-04T10:00:00+00:00</updated>
+          <l>http://www.idescat.cat/territ/BasicTerr?TC=5&amp;V0=1&amp;V1=25001&amp;V3=5060&amp;V4=5103&amp;ALLINFO=TRUE&amp;PARENT=100&amp;CTX=B</l>
+        </t>
+        <t id="t137">
+          <c>Explotacions agràries. Segons tinença de ramaderia</c>
+          <calt>Tinença de ramaderia</calt>
+          <ff>
+            <f id="f139">
+              <c>Sense ramaderia</c>
+              <calt>Explotacions sense ramaderia</calt>
+              <v>11,542,47172</v>
+            </f>
+            <f id="f204">
+              <c>Amb ramaderia</c>
+              <calt>Explotacions amb ramaderia</calt>
+              <v>19,347,13667</v>
+            </f>
+            <f id="f138">
+              <c>Total</c>
+              <calt>Explotacions agràries amb i sense ramaderia</calt>
+              <v>30,889,60839</v>
+            </f>
+          </ff>
+          <r>2009</r>
+          <s>Idescat, a partir de les dades del Cens agrari de l'INE.</s>
+          <updated>2012-04-04T10:00:00+00:00</updated>
+          <l>http://www.idescat.cat/territ/BasicTerr?TC=5&amp;V0=1&amp;V1=25001&amp;V3=5060&amp;V4=5103&amp;ALLINFO=TRUE&amp;PARENT=100&amp;CTX=B</l>
+        </t>
+        <t id="t140">
+          <c>Caps de bestiar. Per espècies</c>
+          <calt>Caps de bestiar</calt>
+          <ff>
+            <f id="f141">
+              <c>Bovins</c>
+              <calt>Caps de bovins</calt>
+              <v>195,13121,544135</v>
+            </f>
+            <f id="f142">
+              <c>Ovins</c>
+              <calt>Caps d'ovins</calt>
+              <v>2030,45750,600082</v>
+            </f>
+            <f id="f252">
+              <c>Cabrum</c>
+              <calt>Caps de cabrum</calt>
+              <v>176,3026,71748</v>
+            </f>
+            <f id="f144">
+              <c>Porcins</c>
+              <calt>Caps de porcins</calt>
+              <v>7289,149104,6742638</v>
+            </f>
+            <f id="f145">
+              <c>Aviram</c>
+              <calt>Caps d'aviram</calt>
+              <v>75010,350918,43890563</v>
+            </f>
+            <f id="f146">
+              <c>Conilles mares</c>
+              <calt>Caps de conilles mares</calt>
+              <v>150,1625,335054</v>
+            </f>
+            <f id="f147">
+              <c>Equins</c>
+              <calt>Caps d'equins</calt>
+              <v>9,981,19352</v>
+            </f>
+          </ff>
+          <r>2009</r>
+          <s>Idescat, a partir de les dades del Cens agrari de l'INE.</s>
+          <updated>2012-04-04T10:00:00+00:00</updated>
+          <l>http://www.idescat.cat/territ/BasicTerr?TC=5&amp;V0=1&amp;V1=25001&amp;V3=5106&amp;V4=5107&amp;ALLINFO=TRUE&amp;PARENT=100&amp;CTX=B</l>
+        </t>
+        <t id="t12">
+          <c>Construcció d'habitatges</c>
+          <calt>Construcció d'habitatges</calt>
+          <ff>
+            <f id="f13">
+              <c>Habitatges iniciats de protecció oficial</c>
+              <calt>Habitatges iniciats de protecció oficial</calt>
+              <v>0,0,876</v>
+            </f>
+            <f id="f14">
+              <c>Habitatges iniciats</c>
+              <calt>Habitatges iniciats</calt>
+              <v>0,1,3846</v>
+            </f>
+          </ff>
+          <r>2014</r>
+          <s>Departament de Territori i Sostenibilitat. Secretaria d'Habitatge i Millora Urbana.</s>
+          <updated>2015-03-18T11:00:00+00:00</updated>
+          <l>http://www.idescat.cat/territ/BasicTerr?TC=5&amp;V0=1&amp;V1=25001&amp;V3=827&amp;V4=86&amp;ALLINFO=TRUE&amp;PARENT=100&amp;CTX=B</l>
+        </t>
+        <t id="t182">
+          <c>Allotjaments turístics</c>
+          <calt>Allotjaments turístics</calt>
+          <ff>
+            <f id="f215">
+              <c>Hotels</c>
+              <calt>Hotels</calt>
+              <v>0,18,2889</v>
+            </f>
+            <f id="f216">
+              <c>Places d'hotels</c>
+              <calt>Places d'hotels</calt>
+              <v>0,698,304026</v>
+            </f>
+            <f id="f217">
+              <c>Càmpings</c>
+              <calt>Càmpings</calt>
+              <v>0,5,349</v>
+            </f>
+            <f id="f218">
+              <c>Places de càmpings</c>
+              <calt>Places de càmpings</calt>
+              <v>0,1794,269838</v>
+            </f>
+            <f id="f219">
+              <c>Turisme rural</c>
+              <calt>Turisme rural</calt>
+              <v>1,58,2301</v>
+            </f>
+            <f id="f220">
+              <c>Places de turisme rural</c>
+              <calt>Places de turisme rural</calt>
+              <v>5,459,18130</v>
+            </f>
+          </ff>
+          <r>2014</r>
+          <updated>2015-04-14T10:00:00+00:00</updated>
+          <l>http://www.idescat.cat/territ/BasicTerr?TC=6&amp;V0=1&amp;V1=25001&amp;MN=1&amp;&amp;V3=83&amp;PARENT=100&amp;CTX=B#FROM</l>
+        </t>
+        <t id="t18">
+          <c>Parc de vehicles</c>
+          <calt>Parc de vehicles</calt>
+          <ff>
+            <f id="f19">
+              <c>Turismes</c>
+              <calt>Turismes</calt>
+              <v>121,6429,3326900</v>
+            </f>
+            <f id="f325">
+              <c>Motocicletes</c>
+              <calt>Motocicletes</calt>
+              <v>11,724,706117</v>
+            </f>
+            <f id="f272">
+              <c>Vehicles industrials</c>
+              <calt>Vehicles industrials</calt>
+              <v>247,2811,795722</v>
+            </f>
+            <f id="f326">
+              <c>Altres</c>
+              <calt>Altres vehicles</calt>
+              <v>92,632,155008</v>
+            </f>
+            <f id="f163">
+              <c>Total</c>
+              <calt>Parc de vehicles</calt>
+              <v>471,10596,4983747</v>
+            </f>
+          </ff>
+          <r>2013</r>
+          <s>Idescat, a partir de les dades de la DGT.</s>
+          <updated>2014-07-10T10:00:00+00:00</updated>
+          <l>http://www.idescat.cat/territ/BasicTerr?TC=5&amp;V0=1&amp;V1=25001&amp;V3=290&amp;V4=291&amp;ALLINFO=TRUE&amp;PARENT=100&amp;CTX=B</l>
+        </t>
+      </tt>
+    </g>
+    <g id="g169">
+      <c>Treball</c>
+      <tt>
+        <t id="t203">
+          <c>Afiliacions a la Seguretat Social segons residència de l'afiliat</c>
+          <calt>Afiliacions a S.S. segons residència de l'afiliat</calt>
+          <ff>
+            <f id="f363">
+              <c>Total (desembre)</c>
+              <calt>Afiliacions segons residència de l'afiliat</calt>
+              <v>62,5057,2907214</v>
+            </f>
+          </ff>
+          <r>2014</r>
+          <s>Idescat.</s>
+          <updated>2015-03-05T11:00:00+00:00</updated>
+          <l>http://www.idescat.cat/territ/BasicTerr?TC=5&amp;V0=1&amp;V3=6357&amp;V4=6358&amp;ALLINFO=TRUE&amp;PARENT=25&amp;CTX=B&amp;V1=25001&amp;VOK=Confirmar</l>
+        </t>
+        <t id="t183">
+          <c>Afiliacions al règim general de la S.S. segons ubicació del compte de cotització. Per sectors</c>
+          <calt>Afiliacions al règim general de S.S.</calt>
+          <ff>
+            <f id="f273">
+              <c>Agricultura</c>
+              <calt>Afiliacions agricultura al R. General SS (ubicació comptes cotització)</calt>
+              <v>11,105,7903</v>
+            </f>
+            <f id="f278">
+              <c>Indústria</c>
+              <calt>Afiliacions indústria al R. General SS (ubicació comptes cotització)</calt>
+              <v>0,121,393348</v>
+            </f>
+            <f id="f279">
+              <c>Construcció</c>
+              <calt>Afiliacions construcció al R. General SS (ubicació comptes cotització)</calt>
+              <v>0,230,96901</v>
+            </f>
+            <f id="f280">
+              <c>Serveis</c>
+              <calt>Afiliacions serveis al R. General SS (ubicació comptes cotització)</calt>
+              <v>8,1807,1816788</v>
+            </f>
+            <f id="f282">
+              <c>Total</c>
+              <calt>Afiliacions al R. General SS (ubicació comptes cotització)</calt>
+              <v>19,2263,2314940</v>
+            </f>
+          </ff>
+          <r>2014</r>
+          <s>Idescat, a partir de les dades del Departament d'Empresa i Ocupació.</s>
+          <updated>2015-02-09T11:00:00+00:00</updated>
+          <l>http://www.idescat.cat/territ/BasicTerr?TC=5&amp;V0=1&amp;V1=25001&amp;V3=4245&amp;V4=4246&amp;ALLINFO=TRUE&amp;PARENT=25&amp;CTX=B</l>
+        </t>
+        <t id="t184">
+          <c>Afiliacions al règim d'autònoms de la S.S. segons ubicació del compte de cotització. Per sectors</c>
+          <calt>Afiliacions al règim d'autònoms de S.S.</calt>
+          <ff>
+            <f id="f229">
+              <c>Agricultura</c>
+              <calt>Afiliacions agri. R.A.S.S. (ubicació comptes cotització)</calt>
+              <v>25,431,24550</v>
+            </f>
+            <f id="f288">
+              <c>Indústria</c>
+              <calt>Afiliacions ind. R.A.S.S. (ubicació comptes cotització)</calt>
+              <v>0,71,45384</v>
+            </f>
+            <f id="f289">
+              <c>Construcció</c>
+              <calt>Afiliacions const. R.A.S.S. (ubicació comptes cotització)</calt>
+              <v>1,181,65106</v>
+            </f>
+            <f id="f290">
+              <c>Serveis</c>
+              <calt>Afiliacions serveis R.A.S.S. (ubicació comptes cotització)</calt>
+              <v>5,697,397700</v>
+            </f>
+            <f id="f291">
+              <c>Total</c>
+              <calt>Afiliacions R.A.S.S. (ubicació comptes cotització)</calt>
+              <v>31,1380,532740</v>
+            </f>
+          </ff>
+          <r>2014</r>
+          <s>Idescat, a partir de les dades del Departament d'Empresa i Ocupació.</s>
+          <updated>2015-02-09T11:00:00+00:00</updated>
+          <l>http://www.idescat.cat/territ/BasicTerr?TC=5&amp;V0=1&amp;V1=25001&amp;V3=4245&amp;V4=4249&amp;ALLINFO=TRUE&amp;PARENT=25&amp;CTX=B</l>
+        </t>
+        <t id="t185">
+          <c>Afiliacions al règim general de la S.S. segons ubicació del compte de cotització. Per grandària del centre</c>
+          <calt>Afiliacions al règim gen. per grandària del centre</calt>
+          <ff>
+            <f id="f225">
+              <c>Fins a 50 treballadors</c>
+              <calt>Afiliacions a centres SS fins a 50 treb. (ubicació comptes cotització)</calt>
+              <v>19,1598,1092739</v>
+            </f>
+            <f id="f284">
+              <c>De 51 a 250 treballadors</c>
+              <calt>Afiliacions a centres SS de 51 a 250 treb. (ubicació comptes cotització)</calt>
+              <v>0,665,532287</v>
+            </f>
+            <f id="f227">
+              <c>De 251 i més treballadors</c>
+              <calt>Afiliacions a centres SS de 251 i més treb. (ubicació comptes cotització)</calt>
+              <v>0,0,689914</v>
+            </f>
+            <f id="f286">
+              <c>Total</c>
+              <calt>Afiliacions al R. General SS (ubicació comptes cotització)</calt>
+              <v>19,2263,2314940</v>
+            </f>
+          </ff>
+          <r>2014</r>
+          <s>Idescat, a partir de les dades del Departament d'Empresa i Ocupació.</s>
+          <updated>2015-02-09T11:00:00+00:00</updated>
+          <l>http://www.idescat.cat/territ/BasicTerr?TC=5&amp;V0=1&amp;V1=25001&amp;V3=4245&amp;V4=4247&amp;ALLINFO=TRUE&amp;PARENT=25&amp;CTX=B</l>
+        </t>
+        <t id="t186">
+          <c>Comptes de cotització</c>
+          <calt>Comptes de cotització S.S.</calt>
+          <ff>
+            <f id="f239">
+              <c>Total</c>
+              <calt>Comptes de cotització</calt>
+              <v>6,480,243017</v>
+            </f>
+          </ff>
+          <r>2014</r>
+          <s>Idescat, a partir de les dades del Departament d'Empresa i Ocupació.</s>
+          <updated>2015-02-09T11:00:00+00:00</updated>
+          <l>http://www.idescat.cat/territ/BasicTerr?TC=5&amp;V0=1&amp;V1=25001&amp;V3=4245&amp;V4=4250&amp;ALLINFO=TRUE&amp;PARENT=25&amp;CTX=B</l>
+        </t>
+        <t id="t209">
+          <c>Pensions contributives de la Seguretat Social segons la residència del pensionista</c>
+          <calt>Pensions de S. S. segons residència del pensionista</calt>
+          <ff>
+            <f id="f375">
+              <c>Total</c>
+              <calt>Pensions contributives de la S.S.</calt>
+              <v>48,3877,1639582</v>
+            </f>
+            <f id="f376">
+              <c>Pensió mitjana</c>
+              <calt>Pensió contributiva mitjana</calt>
+              <v>652.47,751.95,915.81</v>
+              <u>euros</u>
+            </f>
+          </ff>
+          <r>2014</r>
+          <s>Idescat, a partir de dades de l'Institut Nacional de la Seguretat Social.</s>
+          <updated>2015-06-11T10:00:00+00:00</updated>
+          <l>http://www.idescat.cat/territ/BasicTerr?TC=6&amp;V0=1&amp;V1=25001&amp;MN=1&amp;V3=7770&amp;PARENT=25&amp;CTX=B#FROM</l>
+        </t>
+        <t id="t188">
+          <c>Atur registrat. Per sectors</c>
+          <calt>Atur registrat per sectors</calt>
+          <ff>
+            <f id="f243">
+              <c>Agricultura</c>
+              <calt>Atur registrat. Agricultura</calt>
+              <v>0.5,46.6,13965.3</v>
+            </f>
+            <f id="f303">
+              <c>Indústria</c>
+              <calt>Atur registrat. Indústria</calt>
+              <v>2.0,86.8,83450.6</v>
+            </f>
+            <f id="f304">
+              <c>Construcció</c>
+              <calt>Atur registrat. Construcció</calt>
+              <v>0.2,154.2,76159.5</v>
+            </f>
+            <f id="f305">
+              <c>Serveis</c>
+              <calt>Atur registrat. Serveis</calt>
+              <v>9.3,475.2,387279.1</v>
+            </f>
+            <f id="f307">
+              <c>Sense ocupació anterior</c>
+              <calt>Atur registrat (sense ocupació anterior)</calt>
+              <v>0.1,45.8,32700.2</v>
+            </f>
+            <f id="f308">
+              <c>Total</c>
+              <calt>Atur registrat</calt>
+              <v>12.2,808.6,593554.7</v>
+            </f>
+          </ff>
+          <r>2014</r>
+          <s>Idescat, a partir de les dades del Departament d'Empresa i Ocupació.</s>
+          <u>mitjanes anuals</u>
+          <updated>2015-02-16T11:00:00+00:00</updated>
+          <l>http://www.idescat.cat/territ/BasicTerr?TC=5&amp;V0=1&amp;V1=25001&amp;V3=4301&amp;V4=4302&amp;ALLINFO=TRUE&amp;PARENT=25&amp;CTX=B</l>
+        </t>
+        <t id="t187">
+          <c>Atur registrat. Per sexe</c>
+          <calt>Atur registrat per sexe</calt>
+          <ff>
+            <f id="f240">
+              <c>Homes</c>
+              <calt>Atur registrat. Homes</calt>
+              <v>5.3,453.8,293573.6</v>
+            </f>
+            <f id="f241">
+              <c>Dones</c>
+              <calt>Atur registrat. Dones</calt>
+              <v>6.8,354.7,299981.1</v>
+            </f>
+            <f id="f242">
+              <c>Total</c>
+              <calt>Atur registrat</calt>
+              <v>12.2,808.6,593554.7</v>
+            </f>
+          </ff>
+          <r>2014</r>
+          <s>Idescat, a partir de les dades del Departament d'Empresa i Ocupació.</s>
+          <u>mitjanes anuals</u>
+          <updated>2015-02-16T11:00:00+00:00</updated>
+          <l>http://www.idescat.cat/territ/BasicTerr?TC=5&amp;V0=1&amp;V1=25001&amp;V3=4298&amp;V4=4299&amp;ALLINFO=TRUE&amp;PARENT=25&amp;CTX=B</l>
+        </t>
+      </tt>
+    </g>
+    <g id="g172">
+      <c>Cultura i esports</c>
+      <tt>
+        <t id="t90">
+          <c>Població de 2 anys i més. Per coneixement del català</c>
+          <calt>Coneixement del català</calt>
+          <ff>
+            <f id="f91">
+              <c>L'entén</c>
+              <calt>Població que entén català</calt>
+              <v>169,12680,6949344</v>
+            </f>
+            <f id="f92">
+              <c>El sap parlar</c>
+              <calt>Població que sap parlar català</calt>
+              <v>164,11028,5345484</v>
+            </f>
+            <f id="f93">
+              <c>El sap llegir</c>
+              <calt>Població que sap llegir català</calt>
+              <v>161,11052,5750348</v>
+            </f>
+            <f id="f94">
+              <c>El sap escriure</c>
+              <calt>Població que sap escriure català</calt>
+              <v>107,8246,4069219</v>
+            </f>
+            <f id="f95">
+              <c>No l'entén</c>
+              <calt>Població que no entén català</calt>
+              <v>0,403,356728</v>
+            </f>
+            <f id="f96">
+              <c>Total</c>
+              <calt>Població de 2 anys i més</calt>
+              <v>169,13083,7306072</v>
+            </f>
+          </ff>
+          <r>2011</r>
+          <s>Idescat, a partir del Cens de població i habitatges de l'INE.</s>
+          <updated>2013-11-21T11:00:00+00:00</updated>
+          <l>http://www.idescat.cat/territ/BasicTerr?TC=5&amp;V0=1&amp;V1=25001&amp;V3=876&amp;V4=17&amp;ALLINFO=TRUE&amp;PARENT=1&amp;CTX=B</l>
+        </t>
+        <t id="t156">
+          <c>Biblioteques</c>
+          <calt>Biblioteques</calt>
+          <ff>
+            <f id="f270">
+              <c>Públiques</c>
+              <calt>Biblioteques públiques</calt>
+              <v>0,2,422</v>
+            </f>
+            <f id="f327">
+              <c>Altres</c>
+              <calt>Altres biblioteques</calt>
+              <v>0,1,413</v>
+            </f>
+            <f id="f177">
+              <c>Total</c>
+              <calt>Biblioteques</calt>
+              <v>0,3,835</v>
+            </f>
+          </ff>
+          <r>2012</r>
+          <s>Idescat. Estadística de biblioteques.</s>
+          <updated>2013-12-20T11:00:00+00:00</updated>
+          <l>http://www.idescat.cat/territ/BasicTerr?TC=5&amp;V0=1&amp;V1=25001&amp;V3=887&amp;V4=327&amp;ALLINFO=TRUE&amp;PARENT=25&amp;CTX=B</l>
+        </t>
+        <t id="t175">
+          <c>Espais esportius</c>
+          <calt>Espais esportius</calt>
+          <ff>
+            <f id="f293">
+              <c>Pavellons</c>
+              <calt>Pavellons</calt>
+              <v>0,7,903</v>
+            </f>
+            <f id="f294">
+              <c>Pistes poliesportives</c>
+              <calt>Pistes poliesportives</calt>
+              <v>0,18,5430</v>
+            </f>
+            <f id="f295">
+              <c>Camps poliesportius</c>
+              <calt>Camps poliesportius</calt>
+              <v>0,6,1562</v>
+            </f>
+            <f id="f296">
+              <c>Sales esportives</c>
+              <calt>Sales esportives</calt>
+              <v>0,16,6338</v>
+            </f>
+            <f id="f301">
+              <c>Piscines cobertes</c>
+              <calt>Piscines cobertes</calt>
+              <v>0,0,738</v>
+            </f>
+            <f id="f302">
+              <c>Pistes d'atletisme</c>
+              <calt>Pistes d'atletisme</calt>
+              <v>0,0,92</v>
+            </f>
+            <f id="f299">
+              <c>Altres espais</c>
+              <calt>Altres espais esportius</calt>
+              <v>2,79,18236</v>
+            </f>
+            <f id="f300">
+              <c>Total</c>
+              <calt>Espais esportius</calt>
+              <v>3,159,38727</v>
+            </f>
+          </ff>
+          <r>2014</r>
+          <updated>2015-03-05T11:00:00+00:00</updated>
+          <l>http://www.idescat.cat/territ/BasicTerr?TC=5&amp;V0=3&amp;V1=25001&amp;V3=957&amp;V4=4332&amp;ALLINFO=TRUE&amp;PARENT=25&amp;CTX=B</l>
+        </t>
+      </tt>
+    </g>
+    <g id="g174">
+      <c>Eleccions</c>
+      <tt>
+        <t id="t189">
+          <c>Eleccions al Parlament de Catalunya</c>
+          <calt>Eleccions al Parlament de Catalunya</calt>
+          <ff>
+            <f id="f267">
+              <c>Electors</c>
+              <calt>Electors (Elec. Parlament Catalunya)</calt>
+              <v>138,10374,5257351</v>
+            </f>
+            <f id="f254">
+              <c>Participació</c>
+              <calt>Participació (Elec. Parlament Catalunya)</calt>
+              <v>60.9,68.8,69.6</v>
+              <u>%</u>
+            </f>
+          </ff>
+          <r>2012</r>
+          <s>Idescat, a partir de les dades del Departament de Governació i Relacions Institucionals.</s>
+          <updated>2013-01-16T11:00:00+00:00</updated>
+          <l>http://www.idescat.cat/territ/BasicTerr?TC=5&amp;V0=1&amp;V1=25001&amp;V3=384&amp;V4=389&amp;ALLINFO=TRUE&amp;PARENT=25&amp;CTX=B</l>
+        </t>
+        <t id="t190">
+          <c>Eleccions al Congrés dels Diputats</c>
+          <calt>Eleccions al Congrés dels Diputats</calt>
+          <ff>
+            <f id="f268">
+              <c>Electors</c>
+              <calt>Electors (Elec. Congrés)</calt>
+              <v>146,10528,5252504</v>
+            </f>
+            <f id="f255">
+              <c>Participació</c>
+              <calt>Participació (Elec. Congrés)</calt>
+              <v>52.1,61.0,66.8</v>
+              <u>%</u>
+            </f>
+          </ff>
+          <r>2011</r>
+          <s>Idescat, a partir de les dades del Departament de Governació i Relacions Institucionals.</s>
+          <updated>2012-02-29T11:00:00+00:00</updated>
+          <l>http://www.idescat.cat/territ/BasicTerr?TC=5&amp;V0=1&amp;V1=25001&amp;V3=370&amp;V4=385&amp;ALLINFO=TRUE&amp;PARENT=25&amp;CTX=B</l>
+        </t>
+        <t id="t191">
+          <c>Eleccions al Parlament Europeu</c>
+          <calt>Eleccions al Parlament Europeu</calt>
+          <ff>
+            <f id="f269">
+              <c>Electors</c>
+              <calt>Electors (Elec. Parlament Europeu)</calt>
+              <v>152,10393,5253650</v>
+            </f>
+            <f id="f256">
+              <c>Participació</c>
+              <calt>Participació (Elec. Parlament Europeu)</calt>
+              <v>27.0,38.3,37.5</v>
+              <u>%</u>
+            </f>
+          </ff>
+          <r>2009</r>
+          <s>Idescat, a partir de les dades del Departament de Governació i Relacions Institucionals.</s>
+          <updated>2010-06-11T10:00:00+00:00</updated>
+          <l>http://www.idescat.cat/territ/BasicTerr?TC=5&amp;V0=1&amp;V1=25001&amp;V3=371&amp;V4=390&amp;ALLINFO=TRUE&amp;PARENT=25&amp;CTX=B</l>
+        </t>
+      </tt>
+    </g>
+    <g id="g205">
+      <c>Medi ambient</c>
+      <tt>
+        <t id="t204">
+          <c>Residus municipals</c>
+          <calt>Residus municipals</calt>
+          <ff>
+            <f id="f366">
+              <c>Generació per càpita</c>
+              <calt>Residus municipals per càpita</calt>
+              <v>1.22,1.23,1.30</v>
+              <u>kg/hab./dia</u>
+            </f>
+            <f id="f368">
+              <c>Recollida selectiva</c>
+              <calt>Recollida selectiva de residus municipals</calt>
+              <v>32.6,34.3,37.9</v>
+              <u>%</u>
+            </f>
+          </ff>
+          <r>2013</r>
+          <s>Agència de Residus de Catalunya.</s>
+          <updated>2014-11-24T11:00:00+00:00</updated>
+          <l>http://www.idescat.cat/territ/BasicTerr?TC=5&amp;V0=1&amp;V3=8187&amp;V4=6997&amp;ALLINFO=TRUE&amp;PARENT=25&amp;CTX=B&amp;ANYS=2012&amp;V1=25001&amp;VOK=Confirmar</l>
+        </t>
+        <t id="t207">
+          <c>Residus industrials</c>
+          <calt>Residus industrials</calt>
+          <ff>
+            <f id="f371">
+              <c>Establiments amb declaració anual de residus</c>
+              <calt>Establiments amb declaració de residus ind.</calt>
+              <v>0,49,14386</v>
+              <r>2013</r>
+              <updated>2015-03-20T11:00:00+00:00</updated>
+            </f>
+            <f id="f369">
+              <c>Generació de residus</c>
+              <calt>Generació de residus</calt>
+              <v>0.00,551.16,3628750.64</v>
+              <u>tones</u>
+              <r>2013</r>
+              <updated>2015-03-20T11:00:00+00:00</updated>
+            </f>
+            <f id="f370">
+              <c>Tractament de residus</c>
+              <calt>Tractament de residus</calt>
+              <v>0.0,70.9,77.8</v>
+              <u>% de valorització</u>
+              <r>2012</r>
+              <updated>2010-06-11T10:00:00+00:00</updated>
+            </f>
+          </ff>
+          <s>Agència de Residus de Catalunya.</s>
+          <l>http://www.idescat.cat/territ/BasicTerr?TC=6&amp;V0=1&amp;V3=7082&amp;ALLINFO=TRUE&amp;PARENT=25&amp;CTX=B&amp;V1=25001&amp;VOK=Confirmar</l>
+        </t>
+      </tt>
+    </g>
+  </gg>
+</fitxes>
+ 

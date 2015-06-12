@@ -5,9 +5,7 @@ output:
     toc: yes
 ---
 
-* [Descriptiva de variables numèriques](#num_descriptive)
-* [Descriptiva de variables categòriques](#cat_descriptive)
 
-# Descriptiva de variables numèriques {#num_descriptive}
-# Descriptiva de variables categòriques {#cat_descriptive}
-o
+# Descriptiva de variables numèriques
+# Descriptiva de variables categòriques
+
